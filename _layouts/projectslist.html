@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+
+    {% include sidebar.html %}
+
+    <main class="container">
+
+<div>
+  {{ content }}
+</div>
+<ul id="rig">
+    <li>
+        <a class="rig-cell" href="strophonion.html">
+            <img class="rig-img" src="img/stroph5.png">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">strophonion</span>
+        </a>
+    </li>
+
+    <li>
+        <a class="rig-cell" href="fello.html">
+            <img class="rig-img" src="img/fello4.png">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Fello</span>
+        </a>
+    </li>
+
+   <li>
+        <a class="rig-cell" href="Lampyridae.html">
+            <img class="rig-img" src="img/lamp4.png">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Lampirydae</span>
+        </a>
+    </li>
+
+    <li>
+        <a class="rig-cell" href="akselfoon.html">
+            <img class="rig-img" src="img/ramm4.png">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Akselfoon <br> (aka Rammelaar)</span>
+        </a>
+    </li>
+
+ 
+    <li>
+        <a class="rig-cell" href="lightseq.html">
+            
+            <img class="rig-img" src="img/lightseq3.png">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Light seq</span>
+
+        </a>
+    </li>
+
+    <li>
+        <a class="rig-cell" href="punkidelay.html">
+            <img class="rig-img" src="img/familiar5.png">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">punky stylo</span>
+        </a>
+    </li>
+
+
+
+    <li>
+        <a class="rig-cell" href="wonkydrumseq.html">
+            <img class="rig-img" src="img/wds6.png">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">wonky drum seq</span>
+        </a>
+    </li>
+</ul>
+ </main>
+
+    {% include custom-foot.html %}
+  </body>
+</html>

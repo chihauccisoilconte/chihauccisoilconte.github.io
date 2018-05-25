@@ -1,0 +1,22 @@
+
+<div id="sidebar">
+
+<a href="/"><img class="side-logo" src="/img/logo.png"></a>
+  <header>
+    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+      <a href="{{ site.baseurl }}/">
+        {% unless page.url == "/" %}
+          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+        {% endunless %}
+      </a>
+    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
+    <p class="lead">{{ site.description }}</p>
+  </header>
+
+  {% include sidebar-nav-links.html %}
+
+ 
+
+  {% include sidebar-icon-links.html %}
+ 
+</div>

@@ -1,0 +1,154 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/lamp1.jpg"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/lamp2.jpg"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/lamp3.jpg"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+ 
+
+
+<center> <iframe src="https://player.vimeo.com/video/267639895" width="640" height="360" frameborder="0" allowfullscreen></iframe> </center>
+
+<center> <iframe src="https://player.vimeo.com/video/254283845" width="640" height="360" frameborder="0" allowfullscreen></iframe> </center>
+
+<center> <iframe src="https://player.vimeo.com/video/254330042" width="640" height="360" frameborder="0" allowfullscreen></iframe> </center>
+
+<p><br> </p>
+
+<center> <p> <b> Lampyridae </b> <br>
+
+<font size="2">
+
+by <a href="http://instrumentinventors.org/artist/matteo-marangoni/" target="_blank">Matteo Marangoni </a>   & <a href="http://www.dietervandoren.net/" target="_blank">Dieter Vandoren </a>  <p/> </center>
+
+
+<p>Lampyridae is a participatory experience in which humans facilitate the establishment of a society of artificial entities called Lampyridae, which is the Latin denomination for the family of the fireflies. The Lampyridae are devices that operate as a distributed local network using communication protocols that are situated entirely within the range of human perception. Each participant is given a small portable, handheld device that is capable of both emitting and sensing light and sound signals. Participants act as carriers of these autonomous objects, facilitating the emergence of swarm-like behaviors as the devices communicate between each other in space, immersing the audience in a field of pulsating light beams and spatial sound projections.</p>
+
+<p>
+For this project I designed the little devices, following the concept of shaping a little creature that the members of the audience would have to carry around.
+The devices are made of a little 3d printed trumpet and some wooden ribs around it to determinate the shape of the "creatures" (made using a cnc milling machine), there are 4 variations of ribs, and we produced a total of 70 devices (really not fun, but the result is great!).
+Every device also contains 2 pcbs that allows the devices to communicate to each others and play some sounds.
+</p>
+<p>
+You can find some work in progress pictures <a href="https://www.facebook.com/pg/ChiHaUccisoIlConte/photos/?tab=album&album_id=778502575514652" target="_blank">here </a> 
+</p>
+<p>
+And <a href="http://instrumentinventors.org/" target="_blank">here </a> you find more info about the the project and about the "iii"      </p>
+</font>
+
+
+<p> <br> <br> </p>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 3</div>
+      <img src="img/lamp1.jpg" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 3</div>
+      <img src="img/lamp2.jpg" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 3</div>
+      <img src="img/lamp3.jpg" style="width:200%">
+    </div>
+
+ 
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>

@@ -1,0 +1,171 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/ramm1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/ramm2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/ramm3.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/ramm4.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+ 
+
+
+<center> <iframe src="https://player.vimeo.com/video/170797291" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </center>
+
+<center> <iframe src="https://player.vimeo.com/video/170797068" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </center>
+
+
+<p><br> </p>
+
+<center> <p> <b> Akselfoon </b> <br> (aka Rammelaar)  </center>
+
+<font size="2">
+
+<p>The Akselfon isIa musicIinstrument designed to allow everyoneIto playImusic"
+The set is composed of two elements:
+TheIcontrol box and the Akselfoons themselves"
+The philosophy that driven us in the design is that also people affected by disability
+must be able toIexpress themselves trough the use of their body"
+AllIthe material used are completely atoxic and they allow users toIplay freely without
+being affraid of hurting themse ves or damaging the instrument"</p>
+<p>
+The akselfoons are the instrument the user performs with.
+The shapes are designed to be comfortable to use, waterproof and easily washable
+In order to cater a large number of users with a minimum quantity of variations we 
+developed twoPshapes: one is to be used in hold the hand and the other is manly
+designed to be used on top of a table.</p>
+
+<p>
+The use of Askelfoon is designed to allow thepuser and his caregiver tophave a 
+pleasantpexperience.
+Thepcaregiver is free topstop the sound whenever he wants and he can choose
+between several different sounds
+
+</p>
+
+
+</font>
+
+
+<p> <br> <br> </p>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img/ramm1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img/ramm2.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img/ramm3.png" style="width:200%">
+    </div>
+
+  <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img/ramm4.png" style="width:200%">
+    </div>
+
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>

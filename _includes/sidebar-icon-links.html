@@ -1,0 +1,36 @@
+<nav id="sidebar-icon-links"> 
+
+  {% if site.facebook %}
+    <a
+       class="icon" title="Facebook" aria-label="Facebook"
+       href="{{ site.facebook}}" target="_blank">
+     <i class="fab fa-facebook-square"></i>
+    </a>
+  {% endif %}
+
+{% if site.twitter %}
+    <a
+       class="icon" title="Twitter" aria-label="Twitter"
+       href="{{ site.twitter}}" target="_blank">
+     <i class="fab fa-twitter-square"></i>
+    </a>
+  {% endif %}
+
+{% if site.github.repo %}
+    <a id="github-link"
+       class="icon" title="Github Project" aria-label="Github Project"
+       href="{{ site.github.repo }}" target="_blank">
+      <i class="fab fa-github-square"></i>
+    </a>
+  {% endif %}
+
+{% if site.email %}
+    <a
+       class="icon" title="email" aria-label="email"
+       href="{{ site.email}}" target="_blank">
+     <i class="fas fa-at"></i>
+    </a>
+  {% endif %}
+
+  {% include custom-icon-links.html %}
+</nav>

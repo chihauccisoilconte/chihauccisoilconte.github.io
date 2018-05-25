@@ -1,0 +1,35 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            Chi ha ucciso il Conte?
+tagline:          'Design'
+description:      'Product/Interaction <b>Design</b> <br>Digital Fabrication <b>Research</b>'
+
+url:              /
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+
+author:
+  name:           'Nicolò Merendino'
+  url:            https://twitter.com/chihauccilconte
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+github:
+  repo:             https://github.com/chihauccisoilconte
+
+twitter:	    https://twitter.com/chihauccilconte	
+facebook:     https://www.facebook.com/ChiHaUccisoIlConte/
+email:        mailto:chihauccilconte@gmail.com

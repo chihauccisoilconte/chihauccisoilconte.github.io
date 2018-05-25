@@ -1,0 +1,172 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/wds1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/wds2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/wds3.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/wds4.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/wds5.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+ 
+
+
+<center> <iframe src="https://player.vimeo.com/video/225674608" width="640" height="360" frameborder="0" allowfullscreen></iframe> </center>
+
+
+<center> <p> <b> Wonky Drum Seq </b> <br> </center>
+
+<font size="2">
+
+
+
+<p>
+The Wonky Drum Sequencer was design in collaboration with STEIM during project "A Square dreams A Sphere".
+It is a MIDI step sequencer that process a virtual drum machine.</p>
+
+
+<p>
+The instrument it's been used as a guideline to give a 4 days workshop where the participants followed step by step the process of designing the controller.
+</p>
+
+<p>
+All the files needed to reproduce the Wonky Drum seq are available <a href="https://github.com/chihauccisoilconte/a-square-dreams-a-sphere/tree/master/wonky_drum_seq-materials" target="_blank">here </a>
+ 
+And it is possible to make one using the common Fablab machines. </a>
+
+The Wonky Drum Seq is released with a Creative Commons BY-NC-SA licence
+
+The project is funded by the <a href="http://stimuleringsfonds.nl/" target="_blank">Netherlands Creative Industries Fond </a>
+</p>
+
+</font>
+
+
+<p> <br> <br> </p>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/wds1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/wds2.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/wds3.png" style="width:200%">
+    </div>
+
+  <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="img/wds4.png" style="width:200%">
+    </div>
+
+   <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="img/wds5.png" style="width:200%">
+    </div>
+
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>

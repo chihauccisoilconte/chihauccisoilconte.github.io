@@ -1,0 +1,150 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/lightseq1.jpg"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/lightseq2.jpg"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+ 
+
+
+<center> <iframe src="https://player.vimeo.com/video/174119214" width="640" height="360" frameborder="0" allowfullscreen></iframe> </center>
+
+<center> <iframe width="560" height="315" src="https://www.youtube.com/embed/X8pFiuLwgSc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ </center>
+
+
+<p><br> </p>
+
+<center> <p> <b> Light-seq </b> <br> (now "LSE")  </center>
+
+<font size="2">
+
+<p>
+
+LightSeq is an award-winning DIY instrument and performance system for live electronic music. It allows user to program any sequence of lights which are then translated into sound.
+
+For Kacper I designed and built the wooden parts, the the front panels (made in acrilic with a lasercutter/engraver), and the LED holders (with 3d printed PLA).
+
+I did all this work inspired by the octagonal shape of the arabic patterns, in this way the artist can put the elements together on the LDR board and still have a good grip on them. Than I designed all the graphics following that concept.</p>
+
+<p>
+You can find some work in progress pictures <a href="https://www.facebook.com/pg/ChiHaUccisoIlConte/photos/?tab=album&album_id=1014463775251863" target="_blank">here </a> <br>
+
+More info about Kacper Ziemianin <a href="https://ctrlfreq.wordpress.com/" target="_blank">here </a> <br>
+
+the ‘LightSeq’ system has won the 4th international experimental music performance competition at the <a href="http://radicaldb.es/" target="_blank"> "Radical DB" </a> festival in Zaragoza, Spain.<br>
+
+Note: In this version of the Light Seq there are a few changes made by the artist itself in the LDR board
+
+</p>
+
+
+</font>
+
+
+<p> <br> <br> </p>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 2</div>
+      <img src="img/lightseq1.jpg" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 2</div>
+      <img src="img/lightseq2.jpg" style="width:200%">
+    </div
+
+  
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>

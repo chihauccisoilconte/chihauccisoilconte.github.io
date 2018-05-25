@@ -1,0 +1,159 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/fello1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/fello2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/fello3.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/fello4.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/fello5.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+<center> <iframe src="https://player.vimeo.com/video/135972585" width="640" height="360" frameborder="0" allowfullscreen></iframe> </center>
+
+<center> <iframe src="https://player.vimeo.com/video/33805035" width="640" height="360" frameborder="0" allowfullscreen></iframe> </center>
+
+<p><br> </p>
+
+<center> <p> <b> Fello </b> <p/> </center>
+
+<font size="2">
+
+<p>Fello is Andi Otto's unique setup for musical performance. It connects the cello and the computer as one instrument, using the bow as a special interface. The bow is used to play the cello in the traditional way, but in Fello it also holds a set of sensors that measure the movement and acceleration of the bow, as well as the applied finger pressure. This data is used to control audio software that tweaks the amplified cello sound directly in relation to Andi's hand and arm gestures.</p>
+
+<p>
+Fello has been developed at STEIM in Amsterdam since 2007, using their <a href="http://steim.org/product/junxion/junxion_v4-2/" target="_blank">junXion </a> software.   for the data-to-sound mappings. Byung-Jun Kwon and Marije Baalman engineered the sensors and the wireless receiver. CAD and 3D prints have been made by "chi ha ucciso il conte?" (me). The setup includes a MIDI Controller (BCR 2000) to change the functions of the bow sensors, two foot pedals for the same reason and the "NI Maschine" Drummachine. </p>
+
+<p>You can check some work in progress pictures <a href="https://www.facebook.com/media/set/?set=a.652379628126948.1073741831.436693649695548&type=3" target="_blank">here</a>.   </p>
+
+<p> Andi Otto performs Fello solo, in duos with DJs or other musicians, and in large productions involving dance choreography.</p>
+
+<p>You can have more info on <a href="http://www.andiotto.com/" target="_blank">Andi's website </a>.     </p>
+</font>
+
+
+<p> <br> <br> </p>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/fello1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/fello2.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/fello3.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="img/fello4.png" style="width:200%">
+    </div>
+
+ <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="img/fello5.png" style="width:200%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>
