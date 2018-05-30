@@ -17,7 +17,7 @@ If you want to contact me for work, questions or any other topic you can use one
 </p>
 
 <p> <b> Nicolò Merendino</b> (aka "Chi ha ucciso il Conte?") <br>
-<b> IVA/VAT Number </b>: ITBLABLABLABLA01</p>
+<b> IVA/VAT Number </b>: 04490710276 / IT04490710276 </p>
 
 
 
