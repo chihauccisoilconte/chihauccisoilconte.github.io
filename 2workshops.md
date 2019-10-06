@@ -78,7 +78,7 @@ All the materials regarding the wonky drum sequencer can be found <a href="https
 
 <p> As a further output of the project there's a small class made out of 6 video tutorial tha can be found <a href="https://vimeo.com/album/4661933" target="_blank">here </a>  </p>
 
-<iframe src="https://player.vimeo.com/video/203838397" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/360649306" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <p> <br> <p>
 

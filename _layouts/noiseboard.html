@@ -1,0 +1,181 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/noiseboard1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/noiseboard2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/noiseboard3.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/noiseboard5.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/noiseboard4.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+
+<center><iframe src="https://player.vimeo.com/video/364325701" width="640" height="358" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
+<p><br> </p>
+
+
+<center><iframe src="https://player.vimeo.com/video/364325979" width="640" height="358" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
+
+<p><br> </p>
+
+<center> <p> <b> Noiseboard </b> <p/> </center>
+
+
+<center> <p> Made in collaboration with ass. <a href="http://pas-e.org/wp/" target="_blank">Pase </a> , Giovanni Dinello and Alessandro Rizzo <p/> </center>
+
+<p>Noiseboard is a project that uses skateboarding, digital technology and interaction design to
+stimulate a novel and unexpected understanding of the surrounding environment.
+Skaters are artists that interpret space differently than most people, being able to see a
+hidden layer of opportunity embedded in ordinary urban elements. In their eyes, stairs,
+cement blocks, handrails and benches become the raw material of their performative acts
+through which they re-interpret the fruition of space and space itself.
+</p>
+
+<p>
+The core element of the Noiseboard project is a set of skateboards which have been
+modified to include hidden in their structure a microcontroller, an accelerometer and a
+wireless antenna. Such devices translate the movements of the skateboard into digital data
+that are transmitted to a computer and used by a sound designer to generate sound waves,
+translating the skater’s movements into sounds that spread across the surroundings.
+</p>
+
+<p>
+Noiseboard design consists in two main elemets:
+The circuits casing, that was conceived as a sort of alien parassite that contaminated the board, and the board itself, that presents on her surface an engraving that consists in a line patterns that recalls the tipical "f"s on traditional instrunents.
+The whole research was oriented towards an hybridation between modern technology and traditional luthiery 
+</p>
+
+<p>
+Some pictures of the design and fabrication process can be found <a href="https://www.facebook.com/pg/ChiHaUccisoIlConte/photos/?tab=album&album_id=2004071756291055" target="_blank">here </a> 
+</p>
+
+<p>
+Noiseboard project was initially funded by <a href="https://www.comune.venezia.it/it/content/cultura-venezia" target="_blank">Cultura Venezia </a>  
+</p>
+
+
+<p><br> </p>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/noiseboard1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/noiseboard2.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/noiseboard3.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="img/noiseboard5.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="img/noiseboard4.png" style="width:200%">
+    </div>
+
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>

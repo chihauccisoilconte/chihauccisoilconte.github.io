@@ -6,7 +6,6 @@ sidebar_link: true
 ---
 
 
-
 <p>
 I am always happy to get in touch with people.
 If you want to contact me for work, questions or any other topic you can use one of the following channels:
@@ -17,12 +16,8 @@ If you want to contact me for work, questions or any other topic you can use one
 <b>Twitter</b>:  <a href="https://twitter.com/Chihauccilconte" target="_blank">@Chihauccilconte </a><br>
 </p>
 
-<p>
-I'm interested in any kind of enriching experience in music, design and digital fabrication.
-</p>
-
 <p> <b> Nicolò Merendino</b> (aka "Chi ha ucciso il Conte?") <br>
-<b> IVA/VAT Number </b>: 04490710276 / IT04490710276 </p>
+<b> IVA/VAT Number </b>: ITBLABLABLABLA01</p>
 
 
 

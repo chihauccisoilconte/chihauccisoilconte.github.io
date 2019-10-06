@@ -1,0 +1,176 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/crack1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/crack2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/crack3.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/crack4.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+<div class="column">
+    <img src="img/crack5.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+
+<center><iframe src="https://player.vimeo.com/video/363910933" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<p><br> </p>
+
+<center> <p> <b> Crackle Synth 2.0 </b>   </center>
+
+</center>
+
+<font size="2">
+
+<p>Crackle Synth 2.0 is the name of the design research centered on Michel Waisvisz's 1970s electronic musical instrument the crackle synth.</p>
+<p>
+The research was part of project <a href="https://stimuleringsfonds.nl/en/grants_issued/remaking_crackle/" target="_blank">Remaking Crackle </a> </p>
+
+<p>
+The objective of this project was to place this historical instrument in our current technical and cultural context. The original instrument was analysed and subsequently various options for a contemporary approach to the electronic design were mapped. 
+The design was examined, among other things, as is the part it may play in a modern musical line up.
+
+</p>
+
+<p>
+My research mainly focused on defining a very essential volume, and then on the development of a very communicative interface.  
+The new crackle synth is made out of two simple wooden boxes, covered on top by two panels of engraved poly carbonate where the interface and the speaker are placed.
+A handle and two clips are applied subsequently to the main volumes in order to maintain the possibility of folding and carrying around just like the original.
+</p>
+
+<p>
+Some pictures of the design and fabrication process can be found <a href="https://www.facebook.com/pg/ChiHaUccisoIlConte/photos/?tab=album&album_id=832834316748144" target="_blank">here </a> 
+</p>
+
+<p>Project "Remaking Crackle" was an initiative of <a href="http://tinything.com/" target="_blank">Kristina Andersen </a>  and was developed in collaboration with <a href="https://www.discogs.com/artist/20681-Sybren-Danz" target="_blank">Sybren Danz </a> and <a href="http://casperelectronics.com/" target="_blank">Peter Edwards </a> .
+</p>
+
+<p>The prototype realized now belongs to the Lebanese artist <a href="https://www.kerbaj.com/" target="_blank">Mazen Kerbaj </a> 
+</p>
+
+
+<p> <br> <br> </p>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+      <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/crack1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/crack2.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/crack3.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="img/crack4.png" style="width:200%">
+    </div>
+
+ <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="img/crack5.png" style="width:200%">
+    </div>
+  
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>

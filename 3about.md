@@ -84,7 +84,7 @@ Selection of clients:<br>
 <br>- <a href="http://metabody.eu/" target="_blank" > Metabody Project </a> (EU) 
 <br>- <a href="http://steim.org" target="_blank" > STEIM </a> (NL)  
 <br>- <a href="http://constantvzw.org/site/?lang=fr" target="_blank" > Constant vzw </a> (BE) 
-<br> - <a href="https://marijebaalman.eu/" target="_blank" > Marije Baalman </a> (BE)  
+<br> - <a href="https://marijebaalman.eu/" target="_blank" > Marije Baalman </a> (NL)  
 <br> - <a href="http://famfest.info/" target="_blank" > Familiar </a> (ES)
 <br> - <a href="http://www.solomiyamoroz.com/" target="_blank" > Solomiya Moroz </a> (UA)
 <br> - <a href="http://jonathanreus.com//" target="_blank" > Jonathan Reus </a> (US)
