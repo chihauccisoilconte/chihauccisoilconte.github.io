@@ -1,0 +1,183 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/nanoaetherphone1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/nanoaetherphone2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/nanoaetherphone3.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/nanoaetherphone4.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/nanoaetherphone5.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/nanoaetherphone6.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+<center>
+<iframe src="https://player.vimeo.com/video/364805742" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+</center>
+
+<br>
+
+<center> <p> <b> Nano Aetherphone </b> <p/> </center>
+
+<p>The Nano Aetherphone is a musical instrument designed to re-invent and celebrate the Theremin on its 100th anniversary..</p>
+
+<p>
+The characteristics of the Nano Aetherphone are devised to offer artists the same sound possibilities of the Theremin, while also guaranteeing a wider range of options in terms of stage mobility and performance.</p>
+<p>
+The interface works as a digital and compact instrument, and it can be personalized according with the artist’s needs and ways of making music.
+The design is based on a tours shape that deforms a little in order to allow all the electronic components to fit smoothly and in a position that is ergonomic and elegant.</p>
+<p>
+The default sound setting of the Aetherphone Nano consists of a sine wave oscillator with 3 echo effects. Use it directly as a freestanding instrument or enhance its range of sounds by combining it with pedals and effects of your choice. </p>
+<p>
+
+Being based on open hardware and open software, the artist can disassemble the instrument and re-code the program to customize waves’ shape and frequency, sensors calibration and other specifics. In fact, we encourage you to personalize the Nano Aetherphone by shipping it with assembly instructions.</p>
+
+
+<p>
+The repository with the hardware and the source code can be found <a href="https://github.com/chihauccisoilconte/aetherphone_nano" target="_blank">here </a>.</p>
+
+<p>
+You can buy an Aetherphone Nano from my  <a href="https://www.etsy.com/listing/742634527/nano-aetherphone-compact-theremin" target="_blank"> Etsy shop </a>.
+If the item is out of stock and/or if you have any special requirements please send me an email!</p>
+
+<p>
+The design of the "Nano Aetherphone" interface is registered on  <a href="https://www.patamu.com/index.php/en/" target="_blank"> Patamu </a> with license no 112011
+ 
+</p>
+
+<img src="img/patamulogo.png" alt="patamu" style="width:100px;height:110px;"> 
+
+<p>
+Theremin 100 logo by <a href="https://paulsizer.com/" target="_blank"> Paul sizer </a>, more info
+ <a href="http://www.thereminworld.com/theremin-100-assets"_blank"> here </a>
+ 
+</p>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="img/nanoaetherphone1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="img/nanoaetherphone2.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="img/nanoaetherphone3.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="img/nanoaetherphone4.png" style="width:200%">
+    </div>
+
+ <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="img/nanoaetherphone5.png" style="width:200%">
+    </div>
+
+<div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="img/nanoaetherphone6.png" style="width:200%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>
