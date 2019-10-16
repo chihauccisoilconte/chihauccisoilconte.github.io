@@ -1,0 +1,203 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+
+
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/oddknobs1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/oddknobs2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/oddknobs3.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/oddknobs4.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/oddknobs5.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/oddknobs6.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/oddknobs7.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/oddknobs8.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+<center><iframe src="https://player.vimeo.com/video/366472233" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/366472233">Odd Knobs #1 - compact size demo</a> from <a href="https://vimeo.com/user19394903">Chi Ha Ucciso Il Conte</a> on <a href="https://vimeo.com">Vimeo</a>.</p></center>
+
+<center><iframe src="https://player.vimeo.com/video/366472921" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/366472921">Odd Knobs #1 - big size demo</a> from <a href="https://vimeo.com/user19394903">Chi Ha Ucciso Il Conte</a> on <a href="https://vimeo.com">Vimeo</a>.</p></center>
+
+
+
+<center> <p> <b> Odd Knobs #1 </b> <p/> </center>
+
+<font size="2">
+
+<p>The Odd Knobs project is a project to explore possibilities hidden behind the most basic and common interface for synthetizers and many other instruments and objects: knobs</p>
+
+<p>
+The research focused on the idea of designing a tactile image that users could recognize not just seeing them with their eyes, but also by touching.</p>
+<p>
+The results of the research are a set of 5 knobs with 5 different main shapes, and there is a big version and a compact version, so that their application is very versatile</p>
+
+<p>
+The possibilities are however endless, and it is possible to design knobs within a huge range of shapes and dimensions</p>
+
+<p>
+The Odd Knobs are an ideal solution for situations where the performer cannot keep a visual contact with the interface, for non-seeing people that want to have a deeper overview on instruments and interfaces, and for those who wants to give a sharper look to theyr synthetizer</p>
+
+<p>
+you can order some Odd Knobs<a href="http://steim.org/projectblog/2012/01/02/alex-nowitz-the-strophonion-instrument-development-2010-2011/" target="_blank">here (compact size) </a> and here  <a href="http://steim.org/projectblog/2012/01/02/alex-nowitz-the-strophonion-instrument-development-2010-2011/" target="_blank">here (Large size) </a></p> 
+
+<p>
+The design of the "Odd Knobs #1" is registered on  <a href="https://www.patamu.com/index.php/en/" target="_blank"> Patamu </a> with license no 113062
+ 
+</p>
+
+<img src="img/patamulogo.png" alt="patamu" style="width:100px;height:110px;"> 
+
+<p>
+</font>
+
+<p> <br> <br> </p>
+
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="img/oddknobs1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 8 </div>
+      <img src="img/oddknobs2.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="img/oddknobs3.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="img/oddknobs4.png" style="width:200%">
+    </div>
+
+ <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="img/oddknobs5.png" style="width:200%">
+    </div>
+
+ <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="img/oddknobs6.png" style="width:200%">
+    </div>
+
+ <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="img/oddknobs7.png" style="width:200%">
+    </div>
+
+ <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="img/oddknobs8.png" style="width:200%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>
