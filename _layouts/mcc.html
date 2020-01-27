@@ -1,0 +1,176 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/mcc1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/mcc2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/mcc3.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/mcc4.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+   <div class="column">
+    <img src="img/mcc5.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/mcc6.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+
+
+
+<iframe src="https://player.vimeo.com/video/158513377?byline=0" width="640" height="352" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/158513377">Introducing MotionComposer</a> from <a href="https://vimeo.com/motioncomposer">MotionComposer</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<p><br> </p>
+
+<center> <p> <b> Motion Composer Chassis </b> <br>
+
+
+
+made in collaboration with <a href="https://www.iof.fraunhofer.de/en.html" target="_blank">Fraunhofer </a> , <a href="https://www.fusionsystems.de/home.html" target="_blank">Fusion System </a>, and <a href="http://www.lucas-jena.de/" target="_blank">Lucas  </a>  <p/> </center> 
+
+
+<p>The MotionComposer is a device that turns movement into music. It is designed for persons with different abilities, including those with cerebral palsy, aphasia, autism, quadriplegia, blindness, Alzheimer’s or Parkinson’s. It is for small children, senior citizens and everyone in between. The blink of an eye is enough to play a note!.</p>
+
+<p>
+For this project I designed the chassis that contains the CPU, the cameras and all the hardware that is necessary.
+The main driver to design this chassis was to design a device that is playful and captivating at the same time.
+A particular attention was given to the "eyes" in front of the device. 
+</p>
+
+
+<p>
+More info can be found<a href="http://motioncomposer.de/" target="_blank">Here </a>
+
+</p>
+
+
+
+<p> <br> <br> </p>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="img/mcc1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="img/mcc2.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="img/mcc3.png" style="width:200%">
+    </div>
+
+     <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="img/mcc4.png" style="width:200%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="img/mcc5.png" style="width:200%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="img/mcc6.png" style="width:200%">
+    </div>
+
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>
