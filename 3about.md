@@ -32,7 +32,7 @@ applying finishes manually to the machine's output, starting from an internship 
 The Design of elecrtonic music instruments is my passion and my main field of work, but not the only one.
 
 In parallel with my main activity I also give workshops, and I worked at the Waag Society as <b>Fablab manager </b> and Digital fabrication researcher.
-I'm also currently working intensively at "Batjo prject" a project about <b>data physicalization</b> within the field of journalism.
+I'm currently working also as a <b>design researcher </b> at CSC Padua
 </p>
 
 <p> <b>Lab </b>
