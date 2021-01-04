@@ -62,9 +62,10 @@ This is my Curriculum Vitae; here you find informations about my work experience
 <p> <font size="4"> <b> Work Experience </b> </font>  </p>
 
 <p>
-<b> Product / Interaction Design research fellow
+<b> Product / Interaction Design research fellow <br>
 sept 2020 - current - Padua (IT)
 <br>@ <a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
+
 </p>
 
 <p>
