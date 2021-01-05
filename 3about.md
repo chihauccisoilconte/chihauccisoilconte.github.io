@@ -84,7 +84,7 @@ jan 2018 - jan 2019 - Venice (IT) <br>
 
 <p>
 <b> Freelance Product / Interaction Designer</b> <br>
-may 2013 - dec 2017 - Amsterdam (NL) / Venice (IT) <br>
+may 2013 - dec 2017 - Amsterdam (NL)<br>
 
 Selection of clients:<br>
 - <a href="http://www.nowitz.de/english/index_engl.html" target="_blank" >Alex Nowitz </a> (DE)
