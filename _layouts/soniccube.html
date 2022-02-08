@@ -1,0 +1,177 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/soniccube1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/soniccube2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  
+   <div class="column">
+    <img src="img/soniccube3.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/soniccube4.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  
+   <div class="column">
+    <img src="img/soniccube0.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+<center>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/604648471?h=f899d9d36b" width="640" height="360" frameborder="0" allowfullscreen></iframe> </center>
+
+
+
+
+
+<p><br> </p>
+
+<center> <p> <b> Sonic Cube(s) </b>  </center>
+
+<font size="2">
+
+<p>
+
+The sonic cube is an IoT device developed with the intention of providing to users and performers a playful and engaging way to interact with sounds.
+
+The object is a padded fabric cube with the particular property of sending MIDI notes what thrown or held.
+The surface of the device is made out of felt, and it’s embroidered with a pattern of conductive thread that works as a capacitive sensor that allows the device to sense when the user it’s holding it.
+Inside the device there’s an accelerometer that can detect the movements of the cube.
+
+The cubes are also equipped with a set of 2 LEDs that provide a visual feedback foe the user.
+
+The core of the device is an esp32 micro controller that is able to process the input provided by the sensors and send it to a computer through a BLE connection
+
+his project it’s been developed within the course “SENSOR LAB 2.0 – Laboratorio didattico di Iot E Coding” provided by <a href="https://www.areasciencepark.it/" target="_blank">Area Science Park </a> </p>
+
+<p>
+You can find some work in progress pictures <a href="https://www.instagram.com/explore/tags/soniccubes/" target="_blank">here </a> <br>
+
+
+
+</p>
+
+
+</font>
+
+
+<p> <br> <br> </p>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/soniccube1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/soniccube2.png" style="width:200%">
+    </div
+    
+      <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/soniccube3.png" style="width:200%">
+    </div
+
+     <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="img/soniccube4.png" style="width:200%">
+    </div
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="img/soniccube0.png" style="width:200%">
+    </div
+
+  
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>
