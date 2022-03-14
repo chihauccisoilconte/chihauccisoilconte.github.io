@@ -9,7 +9,7 @@ sidebar_link: true
 ("who killed the Count?")
 </p>
 <p>
-“Chi Ha Ucciso il Conte?” is a pseudonym for the Venice based designer Nicolò Merendino.
+“Chi Ha Ucciso il Conte?” is a pseudonym for the Parma (Italy) based designer Nicolò Merendino.
 It is not a random fact that “Chi Ha Ucciso Il Conte?” is a question and not a statement.
 My approach to design starts from the idea that design is a process that requires people to ask to themselves many questions.
 </p>
