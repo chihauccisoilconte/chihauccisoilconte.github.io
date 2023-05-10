@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Nime Workshop
+title: The NIME Eco Wiki and Digital Fabrication
 sidebar_link: false
 
 ---
 
-<p> <b>The NIME Eco Wiki and Digital Fabrication </b>
+
 
 
 </p>
@@ -33,11 +33,13 @@ The workshop will last approximately 2 hours and half and will be hybrid. It is 
 The workshop will last approximately 2 hours and half and will be hybrid. It is organized by Nicolò Merendino, Johnny Sulliva, Adam Melbye, and Raul Masu.
 </p>
 
-Further info on the NIME Eco Wiki Project can be found <a href="https://docs.google.com/forms/d/e/1FAIpQLSdR1TShWqvyrDkm3hA7FdsTwf3DHtdGRCHJVPGEQ-gXaQ9y4A/viewform?usp=send_form" target="_blank">here </a><br> 
+Further info on the NIME Eco Wiki Project can be found <a href=" https://eco.nime.org/" target="_blank">here </a><br> 
 
-Registration link <a href="https://eco.nime.org/ " target="_blank">here </a><br> 
+Registration link <a href="https://docs.google.com/forms/d/e/1FAIpQLSdR1TShWqvyrDkm3hA7FdsTwf3DHtdGRCHJVPGEQ-gXaQ9y4A/viewform?usp=send_form" target="_blank">here </a><br> 
 
-
+<p>
+<b> Bring your experience!</b>
+</p>
 
 
 
