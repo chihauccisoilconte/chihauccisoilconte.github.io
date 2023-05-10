@@ -8,7 +8,7 @@ sidebar_link: false
 
 
 
-</p>
+
 
 <img src="img/nime1.jpg" alt="Mountain View">
 
@@ -29,9 +29,7 @@ We are preparing a set of new pages on digital fabrication, and longevity, touch
 The workshop will last approximately 2 hours and half and will be hybrid. It is organized by Nicolò Merendino, Johnny Sulliva, Adam Melbye, and Raul Masu.
 </p>
 
-<p>
-The workshop will last approximately 2 hours and half and will be hybrid. It is organized by Nicolò Merendino, Johnny Sulliva, Adam Melbye, and Raul Masu.
-</p>
+
 
 Further info on the NIME Eco Wiki Project can be found <a href=" https://eco.nime.org/" target="_blank">here </a><br> 
 
