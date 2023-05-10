@@ -10,7 +10,7 @@ sidebar_link: false
 
 </p>
 
-<img src="img/nime1.png" alt="Mountain View">
+<img src="img/nime1.jpg" alt="Mountain View">
 
 <p>
 Sustainability and longevity of technologies are compelling elements today and are becoming increasingly debated within NIME. The NIME eco wiki which the proposer of this workshop launched a few years ago is intended as a repository of resources to facilitate a more environmentally aware NIME practice. Digital fabrication is without any doubt a central component of NIME research and as such deserves special attention. 
