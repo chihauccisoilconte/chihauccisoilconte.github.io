@@ -1,0 +1,168 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/b58bpm0.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/b58bpm1.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/b58bpm2.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/b58bpm3.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/b58bpm4.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/b58bpm5.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+<center>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/810069665?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="&quot;Below 58 BPM&quot; test"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+</center>
+
+<br>
+
+<center> <p> <b> Below 58BPM </b> <p/> </center>
+
+<p>"Below 58BPM" is an IoT system designed to monitor a specific biometric parameter—the heart rate—of opera singers in real time. It provides feedback and introduces sound effects that manipulate the sounds produced by the body during a self-healing practice. This innovation enables singers to rest and alternate between demanding opera singing techniques and other, less strenuous techniques. It also facilitates a self-healing session during performances if necessary.</p>
+
+<p>
+"Below 58BPM" was developed with and for Eleonora Amianto, an opera singer who experienced a carotid aneurysm. Employing an idiographic design process, we collaborated closely with Eleonora to create a wearable IoT device tailored to her health and artistic requirements. This system explores the intersection of self-healthcare and performative arts, focusing on the use of an Internet of Musical Things (IoMusT) to integrate medical prevention and treatment practices into art performances.</p>
+<p>
+Upon activating the device, users experience augmented tactile feedback of their heartbeat, detected via a pulse sensor. The device features four knobs constantly linked to sound effects included in the Pure Data patch. Typically, the user begins singing without utilizing the effects. However, when the heartbeat feedback indicates stress, the artist can cease using lyrical techniques and engage in a deep breathing session.</p>
+<p>
+The wearable component is a collar designed to be worn over a cotton or wool scarf for added comfort and adaptability. This design choice also prevents the collar from absorbing sweat. The collar, equipped with Velcro for easy opening and closing, connects to a casing that houses the pulse sensor. This casing can be conveniently worn by the artist using a Velcro strip. The wearable interface, located on the front, features knobs, LEDs, and a vibration motor. The back houses a toggle switch and the main board, which can be connected to a USB charger or a computer to load code as necessary. </p>
+<p>
+
+This project is part of the "Below 58 BPM" study, which investigates the integration of real-time monitoring and self-medication practices in music performance through IoT technology. The study has been published in the <a href="https://www.frontiersin.org/articles/10.3389/fcomp.2024.1187933/full" target="_blank">journal Frontiers in Computer Science. </a>.</p>
+
+
+<p>
+The repository with the hardware and the source code can be found <a href="https://github.com/chihauccisoilconte/b58bpm" target="_blank">here </a>.</p>
+
+
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="img/b58bpm0.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="img/b58bpme1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="img/b58bpm2.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="img/b58bpme3.png" style="width:200%">
+    </div>
+
+ <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="img/b58bpm4.png" style="width:200%">
+    </div>
+
+<div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="img/b58bpm5.png" style="width:200%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>
