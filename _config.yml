@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Chi ha ucciso il Conte?
 tagline:          'Design'
-description:      'Product/Interaction <b>Design</b> <br>Digital Fabrication <b>Research</b>'
+description:      'UX/UI Design <br>Digital Fabrication<br> Research'
 
 url:              /
 baseurl:          # the optional subpath of your site, e.g. "/blog"
@@ -30,8 +30,8 @@ plugins:
 github:
   repo:             https://github.com/chihauccisoilconte
 
-twitter:	    https://twitter.com/chihauccilconte	
+instagram: https://www.instagram.com/chihauccisoilconte/
 facebook:     https://www.facebook.com/ChiHaUccisoIlConte/
 email:        mailto:chihauccilconte@gmail.com
 
-instagram: https://www.instagram.com/chihauccisoilconte/
+

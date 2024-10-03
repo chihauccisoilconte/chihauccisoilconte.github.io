@@ -8,46 +8,17 @@ sidebar_link: true
 <p> <b>Chi ha ucciso Il Conte? </b>
 ("who killed the Count?")
 </p>
+
 <p>
-“Chi Ha Ucciso il Conte?” is a pseudonym for the Parma (Italy) based designer Nicolò Merendino.
-It is not a random fact that “Chi Ha Ucciso Il Conte?” is a question and not a statement.
-My approach to design starts from the idea that design is a process that requires people to ask to themselves many questions.
-</p>
-
-
-
-<p> <b>My Work </b>
-
+My name is Nicolò Merendino andI work as a UX/UI designer under the pseudonym "Chi ha Ucciso il Conte?" My work primarily focuses on <b>creating interfaces for electronic music and multimedia arts </b>, collaborating with artists to design and build custom instruments that support their creative practices. I specialize in both designing and constructing electronic devices as well as developing graphical user interfaces tailored to specific needs.
+I am specialized in the use of <b>Free/Libre Open Source Software</b>.
 </p>
 <p>
-“Chi Ha Ucciso il Conte?” is specialized in developing the Design of <b> electronic music instruments and components for media art installations</b>.
-His work consists in understanding the artist's needs and translating them into a usable and expressive shapes. Nick is skilled in using Digital Fabrication techniques, and of course in
-applying finishes manually to the machine's output, starting from an internship at STEIM in the Netherlands he already collaborated with the development of several electronic music instruments and sound installations all over Europe.
-</p>
-
-<p> <b>Activities </b>
-
+With a strong background in <b>digital fabrication</b>, I operate my own fabrication lab and have previously served as a lab manager in FabLabs, overseeing a range of projects. In recent years, I’ve expanded my work into <b>academic research</b>, applying my design and fabrication skills to explore new areas of inquiry. 
 </p>
 <p>
-The Design of elecrtonic music instruments is my passion and my main field of work, but not the only one.
-
-In parallel with my main activity I also give workshops, and I worked at the Waag Society as <b>Fablab manager </b> and Digital fabrication researcher.
-I'm currently working also as a <b>design researcher </b> at CSC Padua
+Throughout my career, I’ve collaborated with artists, foundations, and companies, contributing to a variety of creative and technical endeavors. I also have extensive experience in writing applications for funding, successfully securing resources for multiple projects both independently and as part of a team.
 </p>
-
-<p> <b>Lab </b>
-
-</p>
-<p>
-I have my <b>digital fabrication lab</b>, which is where I spend almost all my time...
-The lab is equipped with a 3D printer, two CNC milling machines, woodworking tools and a basic electronic soldering station.
-With this equipment I can cover every step of the fabrication of an electronic device, from milling a prototype of the PCB to the fabrication of the actual device, using almost every material available from wood to soft metal.
-</p>
-<p>
-I know how to use the all most common CAD softwares, but I decided to use exclusively <b>open source softwares</b> to develop my projects.
-Everything you see on this website is made with tools developed by creative communities.  
-</p>
-
 
 
 
@@ -59,82 +30,85 @@ This is my Curriculum Vitae; here you find informations about my work experience
 
 </p>
 
-<p> <font size="4"> <b> Work Experience </b> </font>  </p>
+<p> <font size="5"> <b> Work Experience </b> </font>  </p>
 
 <p>
-<b> Product / Interaction Design research fellow </b> <br>
-sept 2020 - current - Padua (IT)
-<br>@ <a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
+<b> PhD Student </b> <br>
+Jan 2022 - current - Padua (IT)
+<br><a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
+
+</p>
+
+<p>
+<b> Fablab Manager </b> <br>
+Oct 2021 - Oct 2022 - Parma (IT)
+<br><a href="https://officineonoff.com/" target="_blank" > Officine On/Off  </a>/ <a href="https://fablabparma.org/" target="_blank" > Fablab Parma </a>
+
+</p>
+
+<p>
+<b> Research fellow </b> <br>
+Sept 2020 - Oct 2021 - Padua (IT)
+<br><a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
 
 </p>
 
 <p>
 <b> Freelance Product / Interaction Designer</b> <br>
-jan 2018 - Current - Venice (IT) <br>
+Jan 2018 - Current - Venice / Parma (IT) <br>
 
 
 </p>
 
 <p>
 <b> Designer / Digital Fabrication Researcher</b> <br>
-jan 2018 - jan 2019 - Venice (IT) <br>
+Jan 2018 - Jan 2019 - Venice (IT) <br>
 
-@ <a href="https://batjo.eu/" target="_blank">Batjo Project</a>.  
+<a href="https://batjo.eu/" target="_blank">Batjo Project</a>.  
 </p>
 
-<p>
-<b> Freelance Product / Interaction Designer</b> <br>
-may 2013 - dec 2017 - Amsterdam (NL)<br>
 
-Selection of clients:<br>
-- <a href="http://www.nowitz.de/english/index_engl.html" target="_blank" >Alex Nowitz </a> (DE)
-<br>- <a href="http://instrumentinventors.org" target="_blank"> iii </a> (NL)
-<br>- <a href="http://tinything.com/?p=57" target="_blank" > Kristina Andersen </a> (NL)
-<br>- <a href="http://www.gabeytjonatham.com/" target="_blank" > Gabey Tijon </a> (NL)
-<br>- <a href="https://ctrlfreq.wordpress.com/" target="_blank" > Kacper Ziemiamin </a> (PL)
-<br>- <a href="http://markijzerman.com/" target="_blank" > Mark Ijzerman </a> (NL)
-<br>- <a href="http://metabody.eu/" target="_blank" > Metabody Project </a> (EU)
-<br>- <a href="http://steim.org" target="_blank" > STEIM </a> (NL)  
-<br>- <a href="http://constantvzw.org/site/?lang=fr" target="_blank" > Constant vzw </a> (BE)
-<br> - <a href="https://marijebaalman.eu/" target="_blank" > Marije Baalman </a> (NL)  
-<br> - <a href="http://famfest.info/" target="_blank" > Familiar </a> (ES)
-<br> - <a href="http://www.solomiyamoroz.com/" target="_blank" > Solomiya Moroz </a> (UA)
-<br> - <a href="http://jonathanreus.com//" target="_blank" > Jonathan Reus </a> (US)
-<br> - <a href="http://andiotto.com/" target="_blank" > Andi Otto </a> (DE)
-</p>
 
 <p>
 <b> Designer / Digital Fabrication Researcher / Fablab Manager</b> <br>
-feb 2016 - jul 2017 - Amsterdam (NL)
-<br>@ <a href="https://waag.org/" target="_blank" > Waag Society </a>/ <a href="http://fablab.waag.org/" target="_blank" > Fablab Amsterdam </a>
+Feb 2016 - Jul 2017 - Amsterdam (NL)
+<br> <a href="https://waag.org/" target="_blank" > Waag Society </a>/ <a href="http://fablab.waag.org/" target="_blank" > Fablab Amsterdam </a>
 </p>
 
 <p>
-<b> Founder / Project Leader / Instructor </b> <br>
-jan 2016 - jul 2017 - Amsterdam (NL) <br>@ A square dreams A sphere project  
+<b> Project Leader / Instructor </b> <br>
+Jan 2016 - Jul 2017 - Amsterdam (NL) <br> A square dreams A sphere project  
+</p>
+
+<p>
+<b> Resident Product / Interaction Designer </b> <br>
+Sept 2013 - Dec 2015 - Amsterdam (NL) <br>
+ <a href="http://steim.org" target="_blank" > STEIM </a> (Non staff) 
 </p>
 
 <p>
 <b> Product / Interaction Design (Internship) </b> <br>
 sept 2013 - dec 2013 - Amsterdam (NL) <br>
-@ <a href="http://steim.org" target="_blank" > STEIM </a>  
+ <a href="http://steim.org" target="_blank" > STEIM </a>  
 </p>
 
 <p>
 <b> Product / Interaction Design (Internship) </b> <br>
-aug 2012 - dec 2012 - Rome (IT) <br>
-@ ISIDE Research Center + <a href="http://if.areasciencepark.it/gruppi-di-sviluppo/" target="_blank" > Laboratorio Marotto </a>
+Aug 2012 - Dec 2012 - Rome (IT) <br>
+ISIDE Research Center + <a href="http://if.areasciencepark.it/gruppi-di-sviluppo/" target="_blank" > Laboratorio Marotto </a>
 </p>
 
 <p>
 <b> Tutor (Internship) </b> <br>
-aug 2012 - dec 2012 - Rome (IT) <br>
-@ <a href="http://www.gustolab.com/" target="_blank" > Gustolab </a>
+Aug 2012 - Dec 2012 - Rome (IT) <br>
+ <a href="http://www.gustolab.com/" target="_blank" > Gustolab </a>
 </p>
 
-<p> <font size="4"> <b> Skills </b> </font>  </p>
 
-<p><b> Manual Skills</b> <br>- sketching and drawing <br>- phisical prototyping skills <br> </p>
+
+<p> <font size="5"> <b> Skills </b> </font>  </p>
+
+<p><b> Manual Skills</b> <br>- Sketching and drawing <br>- Physical prototyping skills <br> - Electronic soldering slills </p>
 
  <p><b> Software Skills</b>  (Specialized in <b>open-source</b> Design software) </p>
  <p>-<b> 3D Modeling </b> <br>- FreeCAD <br> - Blender <br>- Rhinoceros (+ t-spline plugin) <br> - Solidworks <br>
@@ -149,9 +123,22 @@ aug 2012 - dec 2012 - Rome (IT) <br>
  <p>-<b> Digital Fabrication </b> <br>- 3D printing <br> - 3 axis CNC Milling <br>- laser cutting <br>- vinyl cutting
  </p>
 
+  <p>-<b> UX/UI Design </b> <br>- Processing and Arduino programming
+ <br> - Figma <br>- Penpot <br> - Libre CAD <br> - Godot Engine (GUI development) <br> - Microcontroller (Arduino, Esp32 etc..) programming
+ </p>
 
-<p> <font size="4"> <b> Education </b> </font>  </p>
 
+  <p>-<b> Other Skills </b> <br>- Fablab/Makerspace management
+ <br> - Design process management <br> - Grant application writing skills <br> - Teaching and supervising <br> - Presentation and public speaking
+ </p>
+
+<p> <font size="5"> <b> Education </b> </font>  </p>
+
+
+<p>
+<b> Sensor Lad 2.0 - IoT and coding LAB diploma</b> <br>
+Sept 2021 - AREA science park Udine <br>
+</p>
 
 <p>
 <b> Fab Academy program diploma</b> <br>
@@ -168,31 +155,47 @@ jul 2013 - ISIA Roma Design (110 w Honors/110 evaluation) <br>
 may 2010 - ISIA Roma Design (110/110 evaluation) <br>
 </p>
 
-<p> <font size="4"> <b> Awards and grants </b> </font>  </p>
+<p> <font size="5"> <b> Awards and grants </b> </font>  </p>
+
+<p>
+<b> 2024 - Cristal Pine Award</b> <br>
+// 1st prize with project “Knurl” (Rafaele Andrade Performance) <br>  
+</p>
+
+
+<p>
+<b> 2024 - Alpine Fellowship Award</b> <br>
+// Final selection with project “Knurl” (Rafaele Andrade Score) <br>  
+</p>
 
 <p>
 <b> 2019 - EU Worth Partnership Fund</b> <br>
-// project "Persona" <br>  
+// project "Persona" funded<br>  
 </p>
 
 <p>
 <b> 2018 - Cultura Venezia - Venice street art fund</b> <br>
-// project "Noiseboard" <br>  
+// project "Noiseboard" funded<br>  
 </p>
 
 <p>
 <b> 2017 - Google DNI Fund</b> <br>
-// project "Batjo" <br>  
+// project "Batjo" funded<br>  
+</p>
+
+<p>
+<b> 2017 - Radical dB’ 4th international experimental music performance competition</b> <br>
+// 1st prize with project “Light Seq” (Cacper Ziemiamin Performance) <br>  
 </p>
 
 <p>
 <b> 2015 - Dutch Creative Industries Fund</b> <br>
-// project "A square dreams A sphere" <br>  
+// project "A square dreams A sphere" funded<br>  
 </p>
 
 <p>
 <b> 2012 - 4° AIPI Contest “Design my third-age house”</b> <br>
-// 2nd prize with project <a href="http://chihauccisoilconte.tumblr.com/post/41110660378" target="_blank">"Differently Young"</a><br> <br>  
+// 2nd prize with project <a href="http://chihauccisoilconte.tumblr.com/post/41110660378" target="_blank">"Differently Young"</a><br> 
 </p>
 
 <p>
