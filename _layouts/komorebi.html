@@ -1,0 +1,162 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/kom1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/kom2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/kom3.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+
+  <div class="column">
+    <img src="img/kom4.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/kom5.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+
+
+<iframe src="https://player.https://vimeo.com/802404734" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</center>
+
+
+
+<br>
+
+<center> <p> <b> Komorebi </b> <p/> </center>
+
+<p>Komorebi is a swarm of artificial creatures that create music in response to the sun, clouds, and tree shadows. The name comes from the Japanese word for "sunlight shining through trees." It invites us to experience the play of light and shadow as music, suggesting that "life" can be a property of complex systems beyond biological life.</p>
+
+<p>
+The project explores how to create spatial electronic music that blends with nature and helps us tune into its constant changes. Unlike digital artworks experienced through screens, Komorebi's physical agents interact through signals filtered by space, giving it a unique presence in the same space as the audience.</p>
+<p>
+Presented in parks, gardens, or forests, the 100 electronic creatures respond to their surroundings—light, sounds, weather—creating ever-changing spatial music. Visitors can walk around to hear how the music shifts or sit and listen as it evolves.</p>
+<p>
+The Komorebi project was a large-scale endeavor involving many professionals. My contribution involved assisting the artist with designing and 3D modeling the devices, as well as supporting the process of writing the funding application in the very early stages of the initiative </p>
+<p>
+
+More details can be found on  <a href="https://matteomarangoni.com/Komorebi-page" target="_blank">Matteo Marangoni's website'</a>.</p>
+
+
+<p>
+The repository with the hardware and the source code can be found <a href="https://github.com/chihauccisoilconte/b58bpm" target="_blank">here </a>.</p>
+
+
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/kom1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/kom2.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/kom3.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="img/kom4.png" style="width:200%">
+    </div>
+
+ <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="img/kom5.png" style="width:200%">
+    </div>
+
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>
