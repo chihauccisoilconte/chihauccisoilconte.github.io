@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research and Teaching
+title: Research
 sidebar_link: true
 
 ---
