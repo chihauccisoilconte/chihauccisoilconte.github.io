@@ -1,0 +1,193 @@
+---
+layout: default
+
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+
+<div class="content">
+
+
+
+ <!-- Images used to open the lightbox -->
+
+
+<div class="row">
+
+  <div class="column">
+     <img src="img/knurl1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+
+
+ <div class="column">
+    <img src="img/knurl2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/knurl3.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+ <div class="column">
+    <img src="img/knurl4.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+<div class="column">
+    <img src="img/knurl5.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+<div class="column">
+    <img src="img/knurl6.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+<div class="column">
+    <img src="img/knurl7.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+
+
+<center>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/885169707?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="What is Knurl?, Rafaele Andrade"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+</center>
+
+
+<p><br> </p>
+
+<center> <p> <b> Knurl </b>   </center>
+
+
+
+<font size="2">
+
+<p>Knurl is Rafaele Andrade's instrument, playable both as a solo instrument and as part of a "Knurl quartet."
+</p>
+<p>
+Knurl is a 3D-printed instrument that resembles a cello and was developed to explore live sound composition. 
+The instrument features 16 cello strings with unique tuning, utilizing sensors that are dynamically remapped by the performer in real-time. As a result, a single touch on any string can trigger specific sounds, pauses, arrangements, or parameter adjustments, creating an immersive musical experience. This allows the performer to produce a wide variety of sounds with minimal effort, enhancing the connection between artist and instrument.
+</p>
+<p>
+Knurl is a large-scale project that involved contributions from many professionals. My role in this project included several tasks: I supported the design of specific parts, mentored Rafa in developing sustainable strategies for the instrument's implementation, and spent an intensive week assembling two of the instruments and debugging parts of the process.
+</p>
+<p>
+More information can be found on <a href="https://www.knurl-lab.in/" target="_blank"> Rafaele Andrade's website.</a>  </p>
+
+<p>
+Pictures taken by Kathy Hinde!
+</p>
+
+
+
+
+<p> <br> <br> </p>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+      <div class="mySlides">
+      <div class="numbertext">1 / 7</div>
+      <img src="img/knurl1.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 7</div>
+      <img src="img/knurl2.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 7</div>
+      <img src="img/knurl3.png" style="width:200%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 7</div>
+      <img src="img/knurl4.png" style="width:200%">
+    </div>
+
+ <div class="mySlides">
+      <div class="numbertext">5 / 7</div>
+      <img src="img/knurl5.png" style="width:200%">
+    </div>
+
+ <div class="mySlides">
+      <div class="numbertext">6 / 7</div>
+      <img src="img/knurl6.png" style="width:200%">
+    </div>
+  
+ <div class="mySlides">
+      <div class="numbertext">7 / 7</div>
+      <img src="img/knurl7.png" style="width:200%">
+    </div>
+  
+  
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+
+    </div>
+  </div>
+</div> 
+</div>
+</html>
