@@ -12,7 +12,7 @@ sidebar_link: true
  <p> <font size="5"> <b>Design </b> </font> </p>
 
 <p>
-My name is Nicolò Merendino andI work as a UX/UI designer under the pseudonym "Chi ha Ucciso il Conte?" My work primarily focuses on <b>creating interfaces for electronic music and multimedia arts </b>, collaborating with artists to design and build custom instruments that support their creative practices. I specialize in both designing and constructing electronic devices as well as developing graphical user interfaces tailored to specific needs.
+My name is Nicolò Merendino andI work as a UX/UI designer under the pseudonym "Chi ha Ucciso il Conte?" My work primarily focuses on <b>creating interfaces for electronic music and multimedia arts </b>, collaborating with artists to design and build custom instruments that support their creative practices. <br>I specialize in both <b>designing and constructing</b> electronic devices as well as developing graphical user interfaces tailored to specific needs.
 I am specialized in the use of <b>Free/Libre Open Source Software</b>.
 <br><br>
 With a strong background in <b>digital fabrication</b>, I operate my own fabrication lab and have previously served as a lab manager in FabLabs, overseeing a range of projects. 
@@ -25,15 +25,15 @@ You can find a selection of the projects I developed in my <a href="https://chih
 <img src="img/about1.png" alt="Mountain View">
 
 <p>
-Throughout my career, I’ve collaborated with artists, foundations, and companies, contributing to a variety of creative and technical endeavors. I also have extensive experience in writing applications for funding, successfully securing resources for multiple projects both independently and as part of a team.
+Throughout my career, I’ve collaborated with artists, foundations, and companies, contributing to a variety of creative and technical endeavors. I also have extensive experience in <b>writing applications for funding</b>, successfully securing resources for multiple projects both independently and as part of a team.
 </p>
 
 
 
 <p>
-My work has been featured in <b>over 500 performances and installations</b> at prestigious venues and
-festivals, including the CTM Festival (Germany), KIKK Festival (Belgium), the National Museum of
-Modern Art in Kyoto (Japan), and the Bauhaus 100 Festival. It has been showcased in 185 cities
+In the hands of the artists who commissioned it, my work has been featured in <b>over 500 performances and installations</b> at prestigious venues and
+festivals, including the <b>CTM Festival</b> (Germany), <b>KIKK Festival</b> (Belgium), <b>the National Museum of
+Modern Art in Kyoto</b> (Japan), and the <b>Bauhaus 100 Festival</b>. It has been showcased in 185 cities
 worldwide. 
 
 </p>
@@ -46,7 +46,7 @@ And here you can have a more detailed list of the performances (you can use the 
 
 <div class="flourish-embed flourish-table" data-src="visualisation/19772895"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19772895/thumbnail" width="100%" alt="table visualization" /></noscript></div>
 
-(A special thanks goes to <a href="https://alice-corona.eu/" target="_blank"> Alice Corona</a> for supporting me in doing this data visualization work!) 
+<br>(A special thanks goes to <a href="https://alice-corona.eu/" target="_blank"> Alice Corona</a> for supporting me in doing this data visualization work!) 
 
 <p> <font size="5"> <b>Research </b> </font> </p>
 
