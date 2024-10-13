@@ -59,7 +59,7 @@ In recent years, I’ve expanded my work into <b>academic research</b>, applying
 
 
 <p>
-In addition to my work as designer and teaching at universities as part of my research, I have been organizing courses and workshops for nearly a decade in FabLabs, maker spaces, and various other institutions. These sessions primarily focus on introducing and working with FLOSS (Free/Libre and Open Source Software) CAD tools, helping participants gain valuable skills in open-source design and digital fabrication.
+In addition to my work as a designer and my university teaching as part of my research, I have been organizing courses and workshops for nearly a decade in FabLabs, makerspaces, and various other institutions. These sessions primarily focus on introducing and working with FLOSS (Free/Libre and Open Source Software) CAD tools, helping participants develop valuable skills in open-source design and digital fabrication.
 </p>
 
 
@@ -67,7 +67,7 @@ In addition to my work as designer and teaching at universities as part of my re
 
 
 <p>
-Over the past several years, I have taught classes in a variety of settings as both a freelance professional and a FabLab/Makerspac Manager. Some of the key institutions where I’ve organised and led workshops include ZB45 (Amsterdam, NL), Instrument Inventors Initiative (Den Haag, NL), SoundMit (Turin, Italy) and Waag Society (Amsterdam, NL), among many others<br><br>
+Over the past several years, I have taught classes in various settings, both as a freelance professional and as a FabLab/Makerspace Manager. Some of the key institutions where I have organized and led workshops include ZB45 (Amsterdam, NL), the Instrument Inventors Initiative (The Hague, NL), SoundMit (Turin, Italy), and Waag Society (Amsterdam, NL), among others.<br><br>
 </p>
 
 <p> <br> </p>
