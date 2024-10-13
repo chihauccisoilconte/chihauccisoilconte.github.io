@@ -1,5 +1,13 @@
 <nav id="sidebar-icon-links"> 
 
+{% if site.email %}
+    <a
+       class="icon" title="email" aria-label="email"
+       href="{{ site.email}}" target="_blank">
+     <i class="far fa-envelope"></i>
+    </a>
+  {% endif %}
+
   {% if site.facebook %}
     <a
        class="icon" title="Facebook" aria-label="Facebook"
@@ -8,21 +16,16 @@
     </a>
   {% endif %}
 
-{% if site.twitter %}
+
+{% if site.instagram %}
     <a
-       class="icon" title="Twitter" aria-label="Twitter"
-       href="{{ site.twitter}}" target="_blank">
-     <i class="fab fa-twitter-square"></i>
+       class="icon" title="instagram" aria-label="instagram"
+       href="{{ site.instagram}}" target="_blank">
+    <i class="fab fa-instagram"></i>
     </a>
   {% endif %}
 
-{% if site.github.repo %}
-    <a id="github-link"
-       class="icon" title="Github Project" aria-label="Github Project"
-       href="{{ site.github.repo }}" target="_blank">
-      <i class="fab fa-github-square"></i>
-    </a>
-  {% endif %}
+
 
 {% if site.etsy %}
     <a
@@ -32,22 +35,33 @@
     </a>
   {% endif %}
 
-{% if site.etsy %}
+
+
+
+{% if site.mastodon %}
     <a
-       class="icon" title="instagram" aria-label="Instagram"
-       href="{{ site.instagram}}" target="_blank">
-<i class="fab fa-instagram"></i>
+       class="icon" title="mastodon" aria-label="mastodon"
+       href="{{ site.mastodon}}" target="_blank">
+    <i class="fab fa-mastodon"></i>
     </a>
   {% endif %}
 
 
-{% if site.email %}
-    <a
-       class="icon" title="email" aria-label="email"
-       href="{{ site.email}}" target="_blank">
-     <i class="fas fa-at"></i>
+{% if site.github.repo %}
+    <a id="github-link"
+       class="icon" title="Github Project" aria-label="Github Project"
+       href="{{ site.github.repo }}" target="_blank">
+      <i class="fab fa-github-square"></i>
     </a>
   {% endif %}
 
+
+{% if site.linkedin %}
+    <a
+       class="icon" title="linkedin" aria-label="linkedin"
+       href="{{ site.linkedin}}" target="_blank">
+     <i class="fab fa-linkedin-in"></i>
+    </a>
+  {% endif %}
   {% include custom-icon-links.html %}
 </nav>
