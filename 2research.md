@@ -14,10 +14,10 @@ sidebar_link: true
 In recent years, after a decade of work as designer, I have broadened my practice to encompass academic research. I am currently affiliated with the <a href="https://csc.dei.unipd.it/" target="_blank">Center for Computational Sonology</a>  at the University of Padova (Italy).
 </p>
 <p>
-My research primarily revolves around the intersection of <b> design practices, human-computer interaction, and music technology</b>. I focus on exploring innovative ways to enhance how we interact with digital musical instruments and technology. A key aspect of my work involves fostering critical and sustainable reflections on these topics, aiming to push the boundaries of what is possible while considering their long-term impact on society and the environment.
+My recent research effort has primarily explored <b>critical reflection and sustainable action within design practices</b>. I have investigated open-source tools and methods to develop interfaces in both the form of tangible devices and GUIs . The aim of these explorations is to push the boundaries of current practices, finding innovative solutions to enhance the full potential of each design project, while <b>considering its long-term impact</b>.
 </p>
 <p>
-In addition to theoretical exploration, <b>I actively engage in hands-on design case studies with individuals and communities</b>. This collaborative approach allows me to test and refine ideas in real-world contexts, ensuring that my research not only advances the field but also remains grounded in the needs and experiences of users and designers.
+<b> I engage in hands-on design projects and studies with people and communities<b>, and I have over a decade of experience in supporting artists and musicians to develop new interactive devices with a focus on new musical experiences
 </p>
 <p>
 Below is a list of my contributions, you can also explore my <a href="https://orcid.org/0000-0003-1970-2769" target="_blank">Orcid</a> and <a href="https://scholar.google.com/citations?user=Bl2vmM8AAAAJ&hl=en" target="_blank">Google Scholar</a> profiles
