@@ -24,6 +24,30 @@ Below is a list of my contributions, you can also explore my <a href="https://or
 </p> 
 
 
+<p><font size="4"> <b> Academic Experience</b> </font> </p>
+
+<p>
+<b> PhD Student </b> <br>
+Jan 2022 - current - Padua (IT)
+<br><a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
+
+</p>
+
+<p>
+<b> Visiting </b> <br>
+March 2022 - Guangzhou (CN)
+<br> HKUST(GZ), visiting research period at<a href="https://cma.hkust-gz.edu.cn/" target="_blank" > CMA </a>/ <a href="https://www.unipd.it/" target="_blank" >  </a>
+
+</p>
+
+<p>
+<b> Research fellow </b> <br>
+Sept 2020 - Oct 2021 - Padua (IT)
+<br><a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
+
+</p>
+
+
 <p><font size="4"> <b> Publications</b> </font> </p>
 
 <p><font size="3.5"> <b>Journal Publications</b> </font> </p>

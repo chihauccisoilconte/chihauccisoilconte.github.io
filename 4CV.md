@@ -54,6 +54,13 @@ Jan 2022 - current - Padua (IT)
 </p>
 
 <p>
+<b> Visiting </b> <br>
+March 2022 - Guangzhou (CN)
+<br> HKUST(GZ), visiting research period at<a href="https://cma.hkust-gz.edu.cn/" target="_blank" > CMA </a>/ <a href="https://www.unipd.it/" target="_blank" >  </a>
+
+</p>
+
+<p>
 <b> Research fellow </b> <br>
 Sept 2020 - Oct 2021 - Padua (IT)
 <br><a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
