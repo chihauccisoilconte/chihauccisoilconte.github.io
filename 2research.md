@@ -35,8 +35,8 @@ Jan 2022 - current - Padua (IT)
 
 <p>
 <b> Visiting </b> <br>
-March 2022 - Guangzhou (CN)
-<br> HKUST(GZ), visiting research period at<a href="https://cma.hkust-gz.edu.cn/" target="_blank" > CMA </a>/ <a href="https://www.unipd.it/" target="_blank" >  </a>
+March 2024 - Guangzhou (CN)
+<br> HKUST(GZ), visiting research period at<a href="https://cma.hkust-gz.edu.cn/" target="_blank" > CMA </a> <a href="https://www.unipd.it/" target="_blank" >  </a>
 
 </p>
 
