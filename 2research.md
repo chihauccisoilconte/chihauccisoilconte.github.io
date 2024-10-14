@@ -17,7 +17,7 @@ In recent years, after a decade of work as designer, I have broadened my practic
 My recent research effort has primarily explored <b>critical reflection and sustainable action within design practices</b>. I have investigated open-source tools and methods to develop interfaces in both the form of tangible devices and GUIs . The aim of these explorations is to push the boundaries of current practices, finding innovative solutions to enhance the full potential of each design project, while <b>considering its long-term impact</b>.
 </p>
 <p>
-<b> I engage in hands-on design projects and studies with people and communities<b>, and I have over a decade of experience in supporting artists and musicians to develop new interactive devices with a focus on new musical experiences
+<b> I engage in hands-on design projects and studies with people and communities</b>, and I have over a decade of experience in supporting artists and musicians to develop new interactive devices with a focus on new musical experiences
 </p>
 <p>
 Below is a list of my contributions, you can also explore my <a href="https://orcid.org/0000-0003-1970-2769" target="_blank">Orcid</a> and <a href="https://scholar.google.com/citations?user=Bl2vmM8AAAAJ&hl=en" target="_blank">Google Scholar</a> profiles
