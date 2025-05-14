@@ -19,7 +19,7 @@ This is my Curriculum Vitae; here you find informations about my work experience
 
 <p>
 <b> Phd in Brain, Mind and Computer Science</b> <br>
-Ongoing (expected graduation march 2025) - Università di Padova <br>
+may 2025 - Università di Padova <br>
 </p>
 
 <p>
@@ -47,8 +47,8 @@ may 2010 - ISIA Roma Design (110/110 evaluation) <br>
 <p> <font size="3"> <b> Research Experience </b> </font>  </p>
 
 <p>
-<b> PhD Student </b> <br>
-Jan 2022 - current - Padua (IT)
+<b> PhD Researcher </b> <br>
+Jan 2022 - May 2025 - Padua (IT)
 <br><a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
 
 </p>

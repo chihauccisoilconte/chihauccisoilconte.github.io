@@ -78,3 +78,11 @@ Over the past several years, I have taught classes in various settings, both as 
 </p>
 
 <p> <br> </p>
+
+<p>
+Over the past several years, I have taught classes in various settings, both as a freelance professional and as a FabLab/Makerspace Manager. Some of the key institutions where I have organized and led workshops include ZB45 (Amsterdam, NL), the Instrument Inventors Initiative (The Hague, NL), SoundMit (Turin, Italy), and Waag Society (Amsterdam, NL), among others.<br><br>
+</p>
+
+<p>
+Years of freelance work and academia in Italy turned me into an evil super villain, named <a href="https://chihauccisoilconte.eu/7barondeathsongbarberini.html" target="_blank">Baron Deathsong Barberini</a> . 
+</p>
