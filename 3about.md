@@ -13,7 +13,7 @@ sidebar_link: true
 
 <p>
 My name is Nicolò Merendino andI work as a UX/UI designer under the pseudonym "Chi ha Ucciso il Conte?" My work primarily focuses on <b>creating interfaces for electronic music and multimedia arts </b>, collaborating with artists to design and build custom instruments that support their creative practices. <br>I specialize in both <b>designing and constructing</b> electronic devices as well as developing graphical user interfaces tailored to specific needs.
-I am specialized in the use of <b>Free/Libre Open Source Software</b>. In over a decade of experience, I collaboated with artists, foundations and companies from all over the world.
+I am specialized in the use of <b>Free/Libre Open Source Software</b>
 <br><br>
 With a strong background in <b>digital fabrication</b>, I operate my own fabrication lab and have previously served as a lab manager in FabLabs, overseeing a range of projects. 
 <br><br>
@@ -55,7 +55,7 @@ I am currently affiliated with the <a href="https://csc.dei.unipd.it/" target="_
 </p>
 
 <p>
-My recent research effort has primarily explored <b>critical reflection and sustainable action within design practices</b>. I have investigated open-source tools and methods to develop interfaces in both the form of tangible devices and GUIs . The aim of these explorations is to push the boundaries of current practices, finding innovative solutions to enhance the full potential of each design project, while <b>considering its long-term impact</b>.
+My recent research effort has primarily explored <b>critical reflection and sustainable action within design practices</b>. I have investigated open-source tools and methods to develop interfaces in both the form of tangible devices and GUIs . The aim of these explorations is to push the boundaries of current practices, finding solutions to enhance the full potential of each design project, while <b>considering its long-term impact</b>.
 </p>
 
 
@@ -77,12 +77,11 @@ In addition to my work as a designer and my university teaching as part of my re
 Over the past several years, I have taught classes in various settings, both as a freelance professional and as a FabLab/Makerspace Manager. Some of the key institutions where I have organized and led workshops include ZB45 (Amsterdam, NL), the Instrument Inventors Initiative (The Hague, NL), SoundMit (Turin, Italy), and Waag Society (Amsterdam, NL), among others.<br><br>
 </p>
 
+
+
+
+<p>
+Years of freelance work and academia in Italy turned me into an evil super villain, named <a href="https://chihauccisoilconte.eu/7barondeathwavebarberini.html" target="_blank">Baron Deathwave Barberini</a> . 
+</p>
+
 <p> <br> </p>
-
-<p>
-Over the past several years, I have taught classes in various settings, both as a freelance professional and as a FabLab/Makerspace Manager. Some of the key institutions where I have organized and led workshops include ZB45 (Amsterdam, NL), the Instrument Inventors Initiative (The Hague, NL), SoundMit (Turin, Italy), and Waag Society (Amsterdam, NL), among others.<br><br>
-</p>
-
-<p>
-Years of freelance work and academia in Italy turned me into an evil super villain, named <a href="https://chihauccisoilconte.eu/7barondeathsongbarberini.html" target="_blank">Baron Deathsong Barberini</a> . 
-</p>

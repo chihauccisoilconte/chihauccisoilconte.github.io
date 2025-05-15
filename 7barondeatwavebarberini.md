@@ -8,7 +8,7 @@ sidebar_link: false
 
 
 <p>
-Years of freelance work and academia in Italy turned me into an evil super villain, below you will find the origins of Baron Deathsong Barberini 
+Years of freelance work and academia in Italy turned me into an evil super villain, below you will find the origins of Baron Deathwave Barberini 
 </p>
 
 
@@ -29,7 +29,7 @@ Determined to carve his own path, Nicolò studied Interaction Design, mastering 
 </p>
 
 <p>
-In Amsterdam, Nicolò’s genius flourished. He designed breathtaking interactive musical instruments, where sound became touch, and gesture conjured symphonies. The city’s vibrant art-tech scene fed his natural inclinations, and for a time, he touched something close to greatness. His creations shimmered at the boundary of art and ritual, technical skill and ancient intuition.
+In Amsterdam, Nicolò’s skills flourished. He designed breathtaking interactive musical instruments, where sound became touch, and gesture conjured symphonies. The city’s vibrant art-tech scene fed his natural inclinations, and for a time, he touched something close to greatness. His creations shimmered at the boundary of art and ritual, technical skill and ancient intuition.
 </p>
 
 <p>
@@ -50,7 +50,7 @@ But when the final blow fell — his research funding cut, his future obliterate
 </p>
 
 <p>
-For weeks, he vanished into his lab, a place that became both tomb and forge. When he emerged, he was no longer Nicolò Merendino. He was Baron Deathwave Barberini — the name a stolen mantle from Rome’s old elite, worn like a mockery of the society that spurned him. Clad in a metal mask inscribed with ancient sigils and a suit powered by sonic energy, he had transformed his beautiful instruments into terrible weapons.
+For weeks, he vanished into his lab, a place that became both tomb and forge. When he emerged, he was no longer Nicolò Merendino. He was <b>Baron Deathwave Barberini</b>  — the name a stolen mantle from Rome’s old elite, worn like a mockery of the society that spurned him. Clad in a metal mask inscribed with ancient sigils and a suit powered by sonic energy, he had transformed his beautiful instruments into terrible weapons.
 </p>
 <p>
 His armor throbbed with infrasound pulses that could shatter bones and minds. His devices could summon resonance fields that warped reality, echoes of his family's ancient rites. The esoteric powers of his bloodline now surged through the amplifiers and transducers he crafted — old magic reborn through new machines.
@@ -68,11 +68,11 @@ His enemies recover, they strike back, and the Baron falls — again and again.
 <p>
 He is the villain of his age: a dark maestro of ancient forces and modern rage, born of noble blood and corrupted genius. In a world where capitalism crowns the shallow and leaves true talent to rot, where inherited powers triumph over earned mastery, who is the real villain?
 The masked Baron who makes the world tremble, or the world that made him?
-</p>
+<p>
 
-
-
-
+<p>
+Disclaimer: This is a work of pure fiction, created solely for the purpose of fun. I have never truly embraced the path of a supervillain. The content above was made possible with the support of AI (OpenAI's ChatGPT-4).
+<p>
 
 
 
