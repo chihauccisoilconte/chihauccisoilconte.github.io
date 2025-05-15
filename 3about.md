@@ -81,7 +81,7 @@ Over the past several years, I have taught classes in various settings, both as 
 
 
 <p>
-Years of freelance work and academia in Italy turned me into an evil super villain, named <a href="https://chihauccisoilconte.eu/7barondeathwavebarberini.html" target="_blank">Baron Deathwave Barberini</a> . 
+Years of freelance work and academic life in Italy also turned me into an  <a href="https://chihauccisoilconte.eu/7barondeathwavebarberini.html" target="_blank">evil supervillain</a> . 
 </p>
 
 <p> <br> </p>
