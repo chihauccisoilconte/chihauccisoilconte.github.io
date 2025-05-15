@@ -1,20 +1,20 @@
 ---
 layout: page
-title: The NIME Eco Wiki and Digital Fabrication
+title: Baron Deathsong Barberini
 sidebar_link: false
 
 ---
 
 
 
-
+<p>
+Years of freelance work and academia in Italy turned me into an evil super villain, below you will find the origins of Baron Deathsong Barberini 
+</p>
 
 
 <img src="img/barondeathwave.jpeg" alt="Mountain View">
 
-<p>
-Years of freelance work and academia in Italy turned me into an evil super villain, below you will find the origins of Baron Deathsong Barberini 
-</p>
+
 
 <p>
 Nicolò Merendino was born under the weight of a name heavy with history. A scion of an ancient Roman family whose roots curled deep into the soil of the Empire’s forgotten rites and forbidden knowledge, Nicolò grew up surrounded not by riches, but by relics — faded crests, crumbling manuscripts, and the cold pride of a lineage that once ruled but had long since faded from power. 
