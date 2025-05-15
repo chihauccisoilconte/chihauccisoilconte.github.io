@@ -8,7 +8,7 @@ sidebar_link: false
 
 
 <p>
-When my schedule allows, I spend time spreading terror and committing atrocities using deadly sound devices of my own invention — a cathartic way to process the frustration built up over years of freelance work and academic life in Italy, which ultimately turned me into an evil supervillain. Below, you will find details about this peculiar activity of mine.
+When my schedule allows, I spend time spreading terror and committing atrocities using deadly sound devices of my own invention — a cathartic way to process the frustration built up over years of freelance work and academic life in Italy, which ultimately turned me into an evil supervillain named <b>Baron Deathwave Barberini</b>. Below, you will find details about this peculiar activity of mine.
 </p>
 
 
