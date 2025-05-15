@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Baron Deathsong Barberini
+title: Baron Deathwave Barberini
 sidebar_link: false
 
 ---
@@ -8,7 +8,7 @@ sidebar_link: false
 
 
 <p>
-Years of freelance work and academia in Italy turned me into an evil super villain, below you will find the origins of Baron Deathwave Barberini 
+When my schedule allows, I spend time spreading terror and committing atrocities using deadly sound devices of my own invention — a cathartic way to process the frustration built up over years of freelance work and academic life in Italy, which ultimately turned me into an evil supervillain named <b>Baron Deathwave Barberini</b>. Below, you will find details about this peculiar activity of mine.
 </p>
 
 
@@ -29,7 +29,7 @@ Determined to carve his own path, Nicolò studied Interaction Design, mastering 
 </p>
 
 <p>
-In Amsterdam, Nicolò’s skills flourished. He designed breathtaking interactive musical instruments, where sound became touch, and gesture conjured symphonies. The city’s vibrant art-tech scene fed his natural inclinations, and for a time, he touched something close to greatness. His creations shimmered at the boundary of art and ritual, technical skill and ancient intuition.
+In Amsterdam, Nicolò’s vision flourished. He designed breathtaking interactive musical instruments, where sound became touch, and gesture conjured symphonies. The city’s vibrant art-tech scene fed his natural inclinations, and for a time, he touched something close to greatness. His creations shimmered at the boundary of art and ritual, technical skill and ancient intuition.
 </p>
 
 <p>
