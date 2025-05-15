@@ -12,8 +12,8 @@ Years of freelance work and academia in Italy turned me into an evil super villa
 </p>
 
 
-<img src="img/barondeathwave.jpeg" alt="Mountain View">
 
+<img src="img/barondeathwave2.jpeg" alt="Mountain View">
 
 
 <p>
@@ -56,7 +56,8 @@ For weeks, he vanished into his lab, a place that became both tomb and forge. Wh
 His armor throbbed with infrasound pulses that could shatter bones and minds. His devices could summon resonance fields that warped reality, echoes of his family's ancient rites. The esoteric powers of his bloodline now surged through the amplifiers and transducers he crafted — old magic reborn through new machines.
 </p>
 
-<img src="img/barondeathwave2.jpeg" alt="Mountain View">
+
+<img src="img/barondeathwave.jpeg" alt="Mountain View">
 
 <p>
 Now, Baron Deathwave Barberini wages war on the world that betrayed him. Superheroes — those blessed with natural-born powers — became his targets, symbols of unearned privilege. With every battle, he unleashes devastating sonic waves. But even at his most deadly, his tragic flaw remains: his pride. Time and again, victory slips away as he pauses mid-fight to lecture on the technical and philosophical aspects of his weapons — musings on resonance, power, and the collapse of meaning in modern sound.
