@@ -79,9 +79,7 @@ Over the past several years, I have taught classes in various settings, both as 
 
 
 
+//In parallel with my main activities, much like other PhDs such as Dr. Otto Octavius and Dr. Victor Von Doom, I cultivate the side project of being an <a href="https://chihauccisoilconte.eu/7barondeathwavebarberini.html" target="_blank">evil supervillain</a>. 
 
-<p>
-Years of freelance work and academic life in Italy also turned me into an  <a href="https://chihauccisoilconte.eu/7barondeathwavebarberini.html" target="_blank">evil supervillain</a> . 
-</p>
 
 <p> <br> </p>

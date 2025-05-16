@@ -28,7 +28,7 @@ Below is a list of my contributions, you can also explore my <a href="https://or
 
 <p>
 <b> PhD Student </b> <br>
-Jan 2022 - current - Padua (IT)
+Jan 2022 - May 2025 - Padua (IT)
 <br><a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
 
 </p>
