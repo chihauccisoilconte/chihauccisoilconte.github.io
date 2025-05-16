@@ -29,8 +29,7 @@ Determined to carve his own path, Nicolò studied Interaction Design, mastering 
 </p>
 
 <p>
-In Amsterdam, Nicolò’s vision flourished. He designed breathtaking interactive musical instruments, where sound became touch, and gesture conjured symphonies. The city’s vibrant art-tech scene fed his natural inclinations, and for a time, he touched something close to greatness. His creations shimmered at the boundary of art and ritual, technical skill and ancient intuition.
-</p>
+In Amsterdam, where he moved right after completing his master’s degree to pursue new opportunities, Nicolò’s vision flourished. He designed breathtaking interactive musical instruments, where sound became touch and gesture conjured symphonies. The city’s vibrant art-tech scene nurtured his natural inclinations, and for a time, he touched something close to greatness. His creations shimmered at the boundary between art and ritual, technical skill and ancient intuition.</p>
 
 <p>
 But duty called him back to Italy — Personal matters forced him to move to Venice. There, his visions faltered. Italy's decaying cultural institutions stifled innovation, and despite his brilliance, Nicolò found his projects dismissed, his path obstructed by bureaucracy and mediocrity. Freelancing kept his body afloat, but his spirit began to fracture. The vast gulf between his skill and the recognition he craved became unbearable.
