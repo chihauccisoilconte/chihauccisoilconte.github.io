@@ -47,6 +47,13 @@ may 2010 - ISIA Roma Design (110/110 evaluation) <br>
 <p> <font size="3"> <b> Research Experience </b> </font>  </p>
 
 <p>
+<b> Assistant Professor of Practice (Lecturer I) </b> <br>
+July 2024 - Current - Guangzhou (CN)
+<br><a href="https://cma.hkust-gz.edu.cn/" target="_blank" > CMA </a>/ <a href="https://www.hkust-gz.edu.cn/" target="_blank" > the HKUST-GZ </a>
+
+</p>
+
+<p>
 <b> PhD Researcher </b> <br>
 Jan 2022 - May 2025 - Padua (IT)
 <br><a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
