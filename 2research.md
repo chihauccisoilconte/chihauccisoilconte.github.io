@@ -39,12 +39,6 @@ July 2024 - Current - Guangzhou (CN)
 
 </p>
 
-<p>
-<b> PhD Student </b> <br>
-Jan 2022 - May 2025 - Padua (IT)
-<br><a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
-
-</p>
 
 
 <p>
