@@ -11,11 +11,17 @@ sidebar_link: true
 
 <p>
 
-In recent years, after a decade of work as designer, I have broadened my practice to encompass academic research. I am currently affiliated with the <a href="https://csc.dei.unipd.it/" target="_blank">Center for Computational Sonology</a>  at the University of Padova (Italy).
+In recent years, after a decade of work as designer, I have broadened my practice to encompass academic research. I am currently affiliated with the, <a href="https://cma.hkust-gz.edu.cn/" target="_blank">Computational Media and Arts</a> Lab at the Hong Kong University of Science and Technology in Guangzhou (China).
 </p>
+
 <p>
-My recent research effort has primarily explored <b>critical reflection and sustainable action within design practices</b>. I have investigated open-source tools and methods to develop interfaces in both the form of tangible devices and GUIs . The aim of these explorations is to push the boundaries of current practices, finding innovative solutions to enhance the full potential of each design project, while <b>considering its long-term impact</b>.
+Before that, I served as Research Fellow and I Obtained my Ph.D at the the <a href="https://csc.dei.unipd.it/" target="_blank">Center for Computational Sonology</a>  at the University of Padova (Italy).
 </p>
+
+<p>
+My recent research effort has primarily explored <b>critical reflection and sustainable action within design practices</b>. I have investigated open-source tools and methods to develop interfaces in both the form of tangible devices and GUIs . The aim of these explorations is to push the boundaries of current practices, finding solutions to enhance the full potential of each design project, while <b>considering its long-term impact</b>.
+</p>
+
 <p>
 <b> I engage in hands-on design projects and studies with people and communities</b>, and I have over a decade of experience in supporting artists and musicians to develop new interactive devices with a focus on new musical experiences
 </p>
@@ -25,6 +31,21 @@ Below is a list of my contributions, you can also explore my <a href="https://or
 
 
 <p><font size="4"> <b> Academic Experience</b> </font> </p>
+
+<p>
+<b> Assistant Professor of Practice (Lecturer I) </b> <br>
+July 2024 - Current - Guangzhou (CN)
+<br><a href="https://cma.hkust-gz.edu.cn/" target="_blank" > CMA </a>/ <a href="https://www.hkust-gz.edu.cn/" target="_blank" > the HKUST-GZ </a>
+
+</p>
+
+<p>
+<b> PhD Student </b> <br>
+Jan 2022 - May 2025 - Padua (IT)
+<br><a href="http://csc.dei.unipd.it/" target="_blank" > CSC Padova </a>/ <a href="https://www.unipd.it/" target="_blank" > Università di Padova </a>
+
+</p>
+
 
 <p>
 <b> PhD Student </b> <br>

@@ -12,7 +12,7 @@ sidebar_link: true
  <p> <font size="5"> <b>Design </b> </font> </p>
 
 <p>
-My name is Nicolò Merendino andI work as a UX/UI designer under the pseudonym "Chi ha Ucciso il Conte?" My work primarily focuses on <b>creating interfaces for electronic music and multimedia arts </b>, collaborating with artists to design and build custom instruments that support their creative practices. <br>I specialize in both <b>designing and constructing</b> electronic devices as well as developing graphical user interfaces tailored to specific needs.
+My name is Nicolò Merendino and I work as a UX/UI designer under the pseudonym "Chi ha Ucciso il Conte?" My work primarily focuses on <b>creating interfaces for electronic music and multimedia arts </b>, collaborating with artists to design and build custom instruments that support their creative practices. <br>I specialize in both <b>designing and constructing</b> electronic devices as well as developing graphical user interfaces tailored to specific needs.
 I am specialized in the use of <b>Free/Libre Open Source Software</b>
 <br><br>
 With a strong background in <b>digital fabrication</b>, I operate my own fabrication lab and have previously served as a lab manager in FabLabs, overseeing a range of projects. 
@@ -51,7 +51,7 @@ you can see a specific list of events in my <a href="https://chihauccisoilconte.
 In recent years, I’ve expanded my work into <b>academic research</b>, applying my design and fabrication skills to explore new areas of inquiry, you can find more details in the <a href="https://chihauccisoilconte.eu/2research.html" target="_blank"> dedicated page</a> . 
 </p>
 <p>
-I am currently affiliated with the <a href="https://csc.dei.unipd.it/" target="_blank">Center for Computational Sonology</a>  at the University of Padova (Italy).
+I am currently affiliated with the <a href="https://cma.hkust-gz.edu.cn/" target="_blank">Computational Media and Arts </a> (CMA) Lab at the Hong Kong University of Science and Technology in Guangzhou (China).
 </p>
 
 <p>
