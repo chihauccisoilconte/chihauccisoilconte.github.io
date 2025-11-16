@@ -6,10 +6,14 @@ sidebar_link: false
 ---
 
 <p>
-Disclaimer:this webpage is currently a mock-up for internal use, accurate details about the initiative will be shared in due time.The details mentioned above may change depending on the needs and availability of the organizations and participants involved 
+Disclaimer - this webpage is currently a mock-up for internal use, accurate details about the initiative will be shared in due time.The details mentioned above may change depending on the needs and availability of the organizations and participants involved 
  
 </p>
 
+<p>
+<b>DocAlive Workshop: Rethinking Documentation Practices in Multimedia Design</b>
+ 
+</p>
 
 <p>
 This workshop, hosted at The Hong Kong University of Science and Technology (Guangzhou), brings together scholars, designers, and creative practitioners to explore how documentation practices shape the development, circulation, and impact of multimedia design projects. As creative outputs increasingly integrate interactive media, computational systems, and cross-disciplinary methods, the act of documenting work has become essential—not only for archiving processes and outcomes, but also for enabling critical reflection, collaboration, and future research.  
