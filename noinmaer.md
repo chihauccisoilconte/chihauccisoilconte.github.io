@@ -20,7 +20,7 @@ We are an international group of artists/researchers in the field of multimedia 
 </p>
 
 <p>
-We are working on a project that focuses on Failed Performances with idiosyncratic setups (self-built instruments, new interfaces, or any other bespoke musical systems and contraptions) with the working title No-gos Interruptions Malfunctions and Errors (aka N.I.M.E.).
+We are working on a project that focuses on <b>Failed Performances with idiosyncratic setups </b> (self-built instruments, new interfaces, or any other bespoke musical systems and contraptions) with the working title <b> No-gos Interruptions Malfunctions and Errors</b>.
 </p>
 
 <p>
