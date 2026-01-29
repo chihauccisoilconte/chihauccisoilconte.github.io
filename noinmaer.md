@@ -109,5 +109,13 @@ The final project will take the form of a <b>printed zine</b> (and a pdf documen
 <p>
 The zine will be distributed free of charge through venues and organizations interested.
 </p>
-
+<p>
+We look forward to reading your tragic stories 
+</p>
+<p>
+No-gos, Incidents, Malfunctions and Errors is a project by 
+<a href="https://alakouzmin.github.io/">Yuri Kuzmin</a>
+ , 陈心然 (Xinran Chen), <a href="https://www.linkedin.com/in/wenqing-gu-a562b9223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">顾文清 (Gu Wenqing)</a> , <a href="
+https://www.researchgate.net/profile/Raul-Masu">Raul Masu</a> and <a href="https://chihauccisoilconte.eu">Nicolo' Merendino (aka Chi ha Ucciso Il Conte?)</a>  
+</p>
 <p><br></p>
