@@ -98,7 +98,7 @@ I never repaired the instrument. Not out of respect, exactly, but because it fel
 
 <p>
 Send the materials mentioned above to
-<a href="mailto:noinmaer@gmail.com">noinmaer@gmail.com</a>
+<a href="mailto:noinmaer@proton.me">noinmaer@proton.me</a>
 <b>before February 25th</b>
 </p>
 
