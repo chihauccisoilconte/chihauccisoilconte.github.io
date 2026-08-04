@@ -119,7 +119,7 @@ Here you can find the volumes we released so far, you can print them in a common
 </p>
 <p>
 <b>A</b> - Atrocity/Affirmation - <a href="noinmaer/noinmaer_volume_1_A.pdf" download>Download PDF</a>
-/p>
+</p>
 <p>
 No-gos, Incidents, Malfunctions and Errors is a project by 
 <a href="https://alakouzmin.github.io/">Yuri Kuzmin</a>
