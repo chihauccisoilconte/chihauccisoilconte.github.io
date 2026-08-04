@@ -107,11 +107,19 @@ The final project will take the form of a <b>printed zine</b> (and a pdf documen
 </p>
 
 <p>
-The zine will be distributed free of charge through venues and organizations interested. This is a non-profit project. 
+The zine is distributed free of charge through venues and organizations interested, and below you can download and print the zine on your own. This is a non-profit project. 
 </p>
 <p>
 We look forward to reading your tragic stories 
 </p>
+
+<h2>Volumes</h2>
+<p>
+Here you can find the volumes we released so far, you can print them in a common A3 sheet in black and white (print in both sides) and then you can easily cut and fold it using <a href="https://www.wikihow.com/Make-a-Zine">this guide</a>, or scan the qr code on the last page of the zine to get a video tutorial of how to do this   
+</p>
+<p>
+<b>A</b> - Atrocity/Affirmation - <a href="noinmaer/noinmaer_volume_1_A.pdf" download>Download PDF</a>
+/p>
 <p>
 No-gos, Incidents, Malfunctions and Errors is a project by 
 <a href="https://alakouzmin.github.io/">Yuri Kuzmin</a>
