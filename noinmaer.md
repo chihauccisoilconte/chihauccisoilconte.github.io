@@ -115,7 +115,7 @@ We look forward to reading your tragic stories
 
 <h2>Volumes</h2>
 <p>
-Here you can find the volumes we released so far, you can print them in a common A3 sheet in black and white (print in both sides) and then you can easily cut and fold it using <a href="https://www.wikihow.com/Make-a-Zine">this guide</a>, or scan the qr code on the last page of the zine to get a video tutorial of how to do this   
+Here you can find the volumes we've released so far. You can print them on a standard A3 sheet in black and white (print on both sides). Then, you can easily cut and fold them using <a href="https://www.wikihow.com/Make-a-Zine">this guide</a>, or scan the QR code on the last page of the zine to get a video tutorial, enjoy!
 </p>
 <p>
 <b>A</b> - Atrocity/Affirmation - <a href="noinmaer/noinmaer_volume_1_A.pdf" download>Download PDF</a>
