@@ -134,3 +134,13 @@ intended use.
 - Versioned the CSS URL per build so cached pre-update styles are refreshed.
 - Jekyll build, generated embed checks, gallery tests, and diff checks passed.
   Existing DocAlive warnings remain; actual phone rendering is not verified.
+
+## 2026-10-19 — portfolio hover alignment
+
+- Removed inherited thumbnail margins and made picture elements block-level
+  so hover overlays follow the image bounds.
+- Bounded and centered desktop captions, reduced padding, enabled long-word
+  wrapping, and scaled title text with card width. Mobile captions stay below
+  images.
+- Jekyll build and diff checks passed; existing DocAlive warnings remain.
+  Visual browser verification remains unavailable in this session.
