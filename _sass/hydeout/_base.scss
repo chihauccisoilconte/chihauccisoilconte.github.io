@@ -101,12 +101,23 @@ button, input[type="submit"] {
   }
 }
 
-// Embedded players retain their original proportions on narrow screens.
+// Padding reserves player height even on browsers without aspect-ratio support.
 iframe { max-width: 100%; }
-iframe.responsive-video {
+.responsive-video-frame {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  margin: 0 auto 1rem;
+  clear: both;
+}
+.responsive-video-frame > iframe.responsive-video {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: block;
   width: 100%;
-  height: auto;
-  aspect-ratio: var(--video-ratio, 16 / 9);
-  margin: 0 auto 1rem;
+  height: 100%;
+  border: 0;
+  margin: 0;
 }

@@ -124,3 +124,13 @@ intended use.
   behaviour checks passed. Run `node _scripts/test-gallery.cjs` for the latter.
   Existing DocAlive YAML warnings remain. Browser/real-device visual checks
   remain outstanding: no connected browser was available in this session.
+
+## 2026-10-19 — mobile image backgrounds and video follow-up
+
+- Explicitly reset native appearance/background/shadow on gallery buttons,
+  retaining visible keyboard focus and moving image spacing outside buttons.
+- Replaced iframe aspect-ratio sizing with proportional padding containers;
+  rendered videos preserve their original ratios without aspect-ratio support.
+- Versioned the CSS URL per build so cached pre-update styles are refreshed.
+- Jekyll build, generated embed checks, gallery tests, and diff checks passed.
+  Existing DocAlive warnings remain; actual phone rendering is not verified.

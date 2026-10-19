@@ -127,6 +127,10 @@ img.hover-shadow {
 }
 
 .gallery-trigger {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  box-shadow: none;
   display: block;
   width: 100%;
   padding: 0;
@@ -134,7 +138,12 @@ img.hover-shadow {
   border-radius: 0;
   text-align: left;
 }
-.gallery-trigger:hover { background: transparent; box-shadow: none; }
+.gallery-trigger:hover, .gallery-trigger:active, .gallery-trigger:focus {
+  background: transparent;
+  box-shadow: none;
+}
+.gallery-trigger img { margin: 0; }
+.gallery-trigger { margin: 0 0 1rem; }
 .gallery-trigger:focus-visible { outline: 3px solid #515151; outline-offset: 3px; }
 .modal button {
   min-width: 44px;
