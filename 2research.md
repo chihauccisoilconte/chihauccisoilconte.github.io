@@ -67,6 +67,13 @@ Sept 2020 - Oct 2021 - Padua (IT)
 
 <p><font size="3.5"> <b>Journal Publications</b> </font> </p>
 
+<p>
+2026 - <b>BruSHŪ: Cross-Modal Translation of Implicit Micro-Actions in Chinese Calligraphy</b><br>
+T Liu, S Zhang, N Merendino <br>
+Proceedings of the ACM on Computer Graphics and Interactive Techniques, 9(3) <br> DOI: <a href="https://doi.org/10.1145/3816090" target="_blank">10.1145/3816090</a>
+</p>
+
+
 
 
 
@@ -94,6 +101,25 @@ Journal of Ubiquitous Music <br> <a href="https://periodicos.ufes.br/j-ubimus" t
 <p><font size="3.5"> <b>Full papers in conference proceedings</b> </font> </p>
 
 <p>
+2026 - <b>The Obstruction Manual: Insights on Sharing Instrument Design Knowledge for Active Learning</b><br>
+N Merendino, R Masu, G Lepri <br>
+Proceedings of the International Conference on New Interfaces for Musical Expression 2026 <br> DOI: <a href="https://doi.org/10.5281/zenodo.20784169" target="_blank">10.5281/zenodo.20784169</a>
+</p>
+
+<p>
+2026 - <b>Considerations Towards Outdoor Impact Mitigation of Site-Related NIME Practice</b><br>
+X Chen, N Merendino, I Kuzmin, M Grimshaw-Aagaard <br>
+Proceedings of the International Conference on New Interfaces for Musical Expression 2026 <br> DOI: <a href="https://doi.org/10.5281/zenodo.20784034" target="_blank">10.5281/zenodo.20784034</a>
+</p>
+
+<p>
+2025 - <b>IS2 inside museums: the case of the &quot;Adria&quot; rattle’s interactive installation</b><br>
+G Pitteri, A Franceschini, N Merendino, A Rodà <br>
+Proceedings of the 2025 IEEE 6th International Symposium on the Internet of Sounds (IS2) <br> DOI: <a href="https://doi.org/10.1109/IS264627.2025.11284613" target="_blank">10.1109/IS264627.2025.11284613</a>
+</p>
+
+
+<p>
 2024 - <b>Prototyping a sustainable GUI for an IoMusT project: A reflection on the adoption of sustainable practices</b><br>
 ES Panozzo, M Bettega, A Rodà, N Merendino <br>
 Proceedings of the 2024 IEEE 5th International Symposium on the Internet of Sounds
@@ -115,7 +141,7 @@ DOI: <a href="https://doi.org/10.5281/zenodo.13904850" target="_blank">10.5281/z
 <p>
 2023 -<b> Redesigning the chowndolo: a reflection-on-action analysis to identify sustainable strategies for NIMEs design</b><br>
 N Merendino, L Giacomo, A Rodà, M Raul <br>
-Proceedings of the International Conference on New Interfaces for Musical Expression 2024 <br> DOI: <a href="https://doi.org/10.5281/zenodo.11189153 " target="_blank">10.5281/zenodo.11189153</a>   
+Proceedings of the International Conference on New Interfaces for Musical Expression 2023 <br> DOI: <a href="https://doi.org/10.5281/zenodo.11189153" target="_blank">10.5281/zenodo.11189153</a>
 </p>
 
 <p>
@@ -125,6 +151,13 @@ Proceedings of the 10th International Conference on Digital and Interactive <br>
 </p>
 
 <p><font size="3.5"> <b>Other short publications and workshops </b> </font> </p>
+
+<p>
+2026 - <b>No-gos, Incidents, Malfunctions and Errors: The Encyclopedia of Failed Performances</b><br>
+I Kuzmin, X Chen, W Gu, N Merendino <br>
+Proceedings of the International Conference on New Interfaces for Musical Expression 2026 (alt.nime) <br> DOI: <a href="https://doi.org/10.5281/zenodo.20741949" target="_blank">10.5281/zenodo.20741949</a>
+</p>
+
 
 <p>
 2023 -<b> Poster-Noiseboard Project: Using Sensors and Long-Range Wireless Communication For Musical Augmentation of Skateboarding</b><br>
@@ -146,6 +179,14 @@ Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factor
 </p>
 
 
+
+<p><font size="3.5"> <b>Doctoral thesis</b> </font> </p>
+
+<p>
+2025 - <b>Toward Sustainable Practices in Networked Musical Devices: Theoretical and Practical Insights</b><br>
+N Merendino <br>
+Ph.D. thesis, Università degli Studi di Padova <br> <a href="https://tesidottorato.depositolegale.it/handle/20.500.14242/210021" target="_blank">Thesis</a>
+</p>
 
 <p><font size="4"> <b>Teaching and supervision </b> </font> </p>
 

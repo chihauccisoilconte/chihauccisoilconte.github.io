@@ -144,3 +144,17 @@ intended use.
   images.
 - Jekyll build and diff checks passed; existing DocAlive warnings remain.
   Visual browser verification remains unavailable in this session.
+
+## 2026-10-19 — research publication update
+
+- Read Google Scholar profile Bl2vmM8AAAAJ (16 entries) and the six
+  missing 2025–2026 records. Added BruSHŪ, The Obstruction Manual, Outdoor
+  Impact Mitigation, Adria installation, Encyclopedia of Failed Performances,
+  and the doctoral thesis, preserving existing citation markup and sections.
+- Verified NIME records at https://nime.org/proc/nime2026_52/,
+  https://nime.org/proc/nime2026_2/, and
+  https://nime.org/proc_alt/nime2026_alt_6/; verified Adria DOI via Crossref.
+- Kept the whole-journal Scholar record out: it is not a separate authored
+  paper. Retained existing workshops. Corrected Chowndolo's venue year to 2023.
+- Build and generated citation-link checks passed; pre-existing DocAlive YAML
+  warnings remain. No visual browser check performed.
