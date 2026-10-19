@@ -18,27 +18,27 @@ layout: default
 <div class="row">
 
   <div class="column">
-     <img src="img/familiar1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+     <button type="button" class="gallery-trigger" aria-label="Open image 1 in gallery" onclick="openModal();currentSlide(1)"><img src="img/familiar1.png" class="hover-shadow" alt=""></button>
   </div>
 
 
  <div class="column">
-    <img src="img/familiar2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+    <button type="button" class="gallery-trigger" aria-label="Open image 2 in gallery" onclick="openModal();currentSlide(2)"><img src="img/familiar2.png" class="hover-shadow" alt=""></button>
   </div>
 
   <div class="column">
-    <img src="img/familiar3.png"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+    <button type="button" class="gallery-trigger" aria-label="Open image 3 in gallery" onclick="openModal();currentSlide(3)"><img src="img/familiar3.png" class="hover-shadow" alt=""></button>
   </div>
 
   <div class="column">
-    <img src="img/familiar4.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+    <button type="button" class="gallery-trigger" aria-label="Open image 4 in gallery" onclick="openModal();currentSlide(4)"><img src="img/familiar4.png" class="hover-shadow" alt=""></button>
   </div>
 
  <div class="column">
-    <img src="img/familiar5.png"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+    <button type="button" class="gallery-trigger" aria-label="Open image 5 in gallery" onclick="openModal();currentSlide(5)"><img src="img/familiar5.png" class="hover-shadow" alt=""></button>
   </div>
 
-<center> <iframe src="https://player.vimeo.com/video/85545198" width="640" height="360" frameborder="0" allowfullscreen></iframe> </center>
+<center> <iframe style="--video-ratio: 640 / 360" class="responsive-video" src="https://player.vimeo.com/video/85545198" width="640" height="360" frameborder="0" allowfullscreen></iframe> </center>
 
 
 <p><br> </p>
@@ -65,8 +65,8 @@ For more info about the Punkidelay and to get instructions to make one just clic
 </div>
 
 <!-- The Modal/Lightbox -->
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
+<div id="myModal" class="modal" role="dialog" aria-modal="true" aria-label="Project image gallery" tabindex="-1">
+  <button type="button" class="close cursor" aria-label="Close gallery" onclick="closeModal()">&times;</button>
   <div class="modal-content">
 
     <div class="mySlides">
@@ -95,8 +95,8 @@ For more info about the Punkidelay and to get instructions to make one just clic
     </div>
 
     <!-- Next/previous controls -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <button type="button" class="prev" aria-label="Previous image" onclick="plusSlides(-1)">&#10094;</button>
+    <button type="button" class="next" aria-label="Next image" onclick="plusSlides(1)">&#10095;</button>
 
     <!-- Caption text -->
     <div class="caption-container">
@@ -105,48 +105,7 @@ For more info about the Punkidelay and to get instructions to make one just clic
 
 <p>  hello hello  <p/>
 
-<script>
-// Open the Modal
-function openModal() {
-  document.getElementById('myModal').style.display = "block";
-}
-
-// Close the Modal
-function closeModal() {
-  document.getElementById('myModal').style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
+<script src="{{ "/assets/js/gallery.js" | relative_url }}" defer></script>
 
 
 

@@ -27,6 +27,15 @@
 
 
 
+{% if site.rednote %}
+    <a
+       class="icon" title="Rednote (小红书)" aria-label="Rednote (小红书)"
+       href="{{ site.rednote | escape }}" target="_blank" rel="noopener noreferrer">
+      {% include svg/rednote.svg %}
+    </a>
+  {% endif %}
+
+
 {% if site.etsy %}
     <a
        class="icon" title="etsy" aria-label="Etsy"

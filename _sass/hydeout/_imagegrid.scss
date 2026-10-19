@@ -115,3 +115,25 @@
         width:50%;
     }
 }
+
+.rig-cell:focus-visible { outline: 3px solid #515151; outline-offset: 3px; }
+.rig-cell:focus .rig-overlay { opacity: 0.8; }
+.rig-cell:focus .rig-text { opacity: 1; transform: none; }
+
+@media (hover: none), (max-width: 783px) {
+  .rig-text {
+    position: static;
+    padding: 0.5rem 0.25rem;
+    font-size: 1rem;
+    color: #515151;
+    opacity: 1;
+    transform: none;
+  }
+  .rig-overlay { display: none; }
+  #rig li:hover .rig-text { opacity: 1; }
+}
+
+// The sidebar leaves less room for portfolio cards on tablets.
+@media (min-width: 784px) and (max-width: 1120px) {
+  #rig li { width: 50%; }
+}

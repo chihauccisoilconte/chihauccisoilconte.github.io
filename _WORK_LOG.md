@@ -1,0 +1,126 @@
+# Website work log
+
+## 2026-10-17 — technical review and first fixes
+
+### Scope and preferences
+
+The user approved technical improvements only. Preserve the artistic identity
+and intellectual content. Continue from the current working tree; changes have
+not been committed or deployed during this session.
+
+The prioritized task list is `_TECHNICAL_TODO.md`. Read it alongside this log
+before continuing. Both files use underscore-prefixed names to stay out of the
+published Jekyll site.
+
+### Completed
+
+1. **Mobile navigation** — `_sass/hydeout/_layout.scss` explicitly keeps primary
+   navigation visible on interior pages. Existing home and desktop behaviour
+   is preserved. Checked generated CSS and six navigation destinations on six
+   representative pages.
+2. **Galleries** — replaced copied inline scripts in 22 layouts with
+   `assets/js/gallery.js`. Fixed thumbnail indices by matching image filenames,
+   removed accesses to missing `.demo` elements, implemented slide wrapping,
+   and added arrow keys and Escape. Updated modal stacking and sizing in
+   `_sass/hydeout/_singleproject.scss`. Verified 111 mappings across 21 generated
+   pages and exercised controller behaviour with Node-based DOM stubs.
+3. **Portfolio thumbnails** — Home and Design grids now use
+   `_includes/portfolio-thumbnail.html` with 240px/480px WebP images and 480px
+   PNG fallbacks in `img/thumbnails/`. First four images per grid load eagerly;
+   the rest use lazy loading. Explicit image dimensions reserve space.
+   Original full-size project/gallery images were preserved.
+
+Thumbnail regeneration: `python3 _scripts/generate_thumbnails.py` (Pillow).
+The script discovers source images from the includes in the two grid layouts.
+When adding an image, also supply its correct aspect-ratio dimensions to the
+include; the script generates assets but does not update include dimensions.
+
+### Verification and measurements
+
+- Jekyll builds successfully, with two pre-existing DocAlive YAML warnings.
+- `git diff --check` passed after the changes.
+- Gallery JavaScript syntax and controller logic checks passed; these were
+  Node-based checks, not real-browser interaction tests.
+- Checked all 33 rendered grid image occurrences, their generated paths,
+  intrinsic dimensions, and loading attributes.
+- Visually inspected a contact sheet of representative generated thumbnails.
+- Homepage grid: originals 16.65 MB; WebP variants total about 30 KB at 240px
+  or 96 KB at 480px.
+- Design grid: originals 42.9 MB; WebP variants total about 81 KB at 240px or
+  219 KB at 480px.
+- These are image file totals, not browser transfer measurements. They exclude
+  the logo and external embeds. Real-browser responsive and accessibility
+  verification remains outstanding.
+- The user previewed the changes locally and approved continuing from here.
+
+### Local preview
+
+Started with:
+
+```sh
+bundle exec jekyll serve --host 127.0.0.1 --port 4000 --destination /tmp/conte-local-preview
+```
+
+URLs:
+
+- Home: http://127.0.0.1:4000/
+- Design: http://127.0.0.1:4000/1design.html
+- Gallery example: http://127.0.0.1:4000/knurl.html
+
+The server was running and auto-regenerating at session end. A future session
+must check whether it is still running before starting another instance.
+Opening the listening socket required sandbox escalation in this session.
+
+### Remaining work
+
+Consult `_TECHNICAL_TODO.md` for the full list. No next implementation task has
+been selected yet. Main outstanding areas:
+
+- Gallery accessibility: semantic controls, focus management/restoration, and
+  dialog semantics. Arrow keys and Escape alone do not complete this work.
+- Image alternative text, visible project labels without hover, link contrast,
+  and removal of the viewport zoom restriction.
+- Responsive embeds and broader browser layout checks.
+- Quote the two DocAlive workshop titles to fix YAML parsing/layout failures.
+- Repair missing favicon and malformed external links; confirm intended email
+  before resolving the differing configured/contact addresses.
+- Metadata, public site URL, template cleanup, and dependency review.
+- Performance optimization outside the portfolio grids and actual browser
+  measurements.
+
+Avoid treating earlier changes as new work or overwriting the uncommitted
+working tree. Do not remove duplicate/legacy pages without confirming their
+intended use.
+
+## 2026-10-18 — Rednote social icon
+
+- Added a conditional Rednote link after Instagram in the shared sidebar.
+- Added the Simple Icons CC0 Xiaohongshu SVG, using the existing social icon
+  colour and hover treatment with an accessible link label.
+- `_config.yml` has a blank `rednote` setting pending the user's profile URL;
+  the icon stays hidden until that URL is supplied.
+- Jekyll build and `git diff --check` passed (existing DocAlive YAML warnings
+  remain). Verified generated link markup using a temporary config URL and
+  confirmed no link renders with the blank setting. No deployment performed.
+
+### Rednote follow-up
+
+- Set the user-provided Rednote profile URL in `_config.yml`.
+- Kept social icons on one line with smaller icons and consistent gaps.
+- Updated the local preview override to use the real profile URL.
+
+## 2026-10-19 — mobile usability fixes
+
+- Removed the viewport zoom restriction and exposed social navigation on mobile
+  interior pages. Preserved the single-row social icon treatment.
+- Made YouTube/Vimeo embeds responsive while retaining their declared ratios.
+- Made project labels visible on narrow/touch layouts and added keyboard focus
+  styling. Tablet grids use two columns; removed the fixed 200px content inset
+  and reduced tablet padding.
+- Converted gallery triggers and controls to buttons; added dialog semantics,
+  focus entry/trapping/restoration, background inertness, scroll locking, and
+  44px modal controls. Reduced gallery spacing in short landscape viewports.
+- Fresh Jekyll build, generated-page checks, JavaScript syntax and gallery
+  behaviour checks passed. Run `node _scripts/test-gallery.cjs` for the latter.
+  Existing DocAlive YAML warnings remain. Browser/real-device visual checks
+  remain outstanding: no connected browser was available in this session.

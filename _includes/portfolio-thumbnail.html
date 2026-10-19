@@ -1,0 +1,9 @@
+{% assign thumbnail = include.src | split: '/' | last | split: '.' | pop | join: '.' %}
+<picture>
+  <source type="image/webp"
+          srcset="{{ '/img/thumbnails/' | append: thumbnail | append: '-240.webp' | relative_url }} 240w, {{ '/img/thumbnails/' | append: thumbnail | append: '-480.webp' | relative_url }} 480w"
+          sizes="(max-width: 550px) calc(50vw - 52px), (max-width: 700px) calc(33.33vw - 42px), (max-width: 783px) calc(25vw - 36px), 170px">
+  <img class="rig-img" src="{{ '/img/thumbnails/' | append: thumbnail | append: '-480.png' | relative_url }}"
+       width="{{ include.width }}" height="{{ include.height }}" alt=""
+       loading="{{ include.loading | default: 'lazy' }}" decoding="async">
+</picture>

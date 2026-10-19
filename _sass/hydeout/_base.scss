@@ -100,3 +100,13 @@ button, input[type="submit"] {
     box-shadow: $default-box-shadow;
   }
 }
+
+// Embedded players retain their original proportions on narrow screens.
+iframe { max-width: 100%; }
+iframe.responsive-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: var(--video-ratio, 16 / 9);
+  margin: 0 auto 1rem;
+}

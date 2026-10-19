@@ -19,7 +19,7 @@
 
   display: none;
   position: fixed;
-  z-index: 0;
+  z-index: 1000;
   padding-top: 100px;
   left: 0;
   top: 0;
@@ -35,8 +35,15 @@
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 200%;
+  width: 100%;
   max-width: 1300px;
+}
+
+.modal .mySlides img {
+  width: 100% !important; // Override legacy inline enlargement.
+  max-height: calc(100vh - 160px);
+  object-fit: contain;
+  margin: 0;
 }
 
 /* The Close Button */
@@ -117,4 +124,30 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.gallery-trigger {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  text-align: left;
+}
+.gallery-trigger:hover { background: transparent; box-shadow: none; }
+.gallery-trigger:focus-visible { outline: 3px solid #515151; outline-offset: 3px; }
+.modal button {
+  min-width: 44px;
+  min-height: 44px;
+  border: 0;
+  border-radius: 0;
+  line-height: 1;
+  box-shadow: none;
+}
+.modal .close { padding: 4px; }
+.modal .prev, .modal .next { background: rgba(0, 0, 0, 0.6); }
+.modal button:focus-visible { outline: 3px solid white; outline-offset: -3px; }
+@media (max-height: 500px) {
+  .modal { padding-top: 60px; }
+  .modal .mySlides img { max-height: calc(100vh - 100px); }
 }
