@@ -158,3 +158,21 @@ intended use.
   paper. Retained existing workshops. Corrected Chowndolo's venue year to 2023.
 - Build and generated citation-link checks passed; pre-existing DocAlive YAML
   warnings remain. No visual browser check performed.
+
+## 2026-10-20 — desktop sidebar sizing
+
+- Scaled desktop sidebar width, logo, menu text, icons, and spacing together
+  using a viewport-height-based font unit, capped at the original desktop size.
+  Replaced the fixed logo spacer with proportional spacing on desktop.
+- Preserved mobile layout rules and kept overflow available as a fallback for
+  enlarged text or additional navigation. Added a home label to the logo image.
+- Jekyll build and diff checks passed; verified compiled responsive CSS and
+  all six menu links/seven social links on Home, Design, and Knurl.
+  Existing DocAlive YAML warnings remain. No connected browser was available,
+  so visual viewport checks remain outstanding. No deployment performed.
+
+### Desktop description spacing follow-up
+
+- Balanced the desktop description with equal space above and below, moving
+  existing whitespace above it without increasing total sidebar height.
+- Jekyll build and diff checks passed; local preview regenerated the CSS.
