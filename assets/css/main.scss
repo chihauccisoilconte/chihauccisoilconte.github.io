@@ -75,5 +75,10 @@ html:lang(zh-CN) .content { line-height: 1.8; }
 }
 
 @media (max-width: $large-breakpoint - 0.01rem) {
-  #sidebar .language-switcher { margin: 0.75em 0; }
+  #sidebar .language-switcher:not([hidden]) { display: flex; }
+  #sidebar .language-switcher {
+    justify-content: center;
+    margin: 0.75em 0;
+  }
+  #sidebar .translation-disclaimer { text-align: center; }
 }
