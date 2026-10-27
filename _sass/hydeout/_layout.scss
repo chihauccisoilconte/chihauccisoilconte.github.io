@@ -261,6 +261,12 @@ font-weight:300;
 
 #sidebar-nav-links {
   flex-flow: column nowrap;
+  text-align: center;
+}
+
+#sidebar-nav-links > a {
+  align-self: stretch;
+  text-align: center;
 }
 
 #sidebar-icon-links {

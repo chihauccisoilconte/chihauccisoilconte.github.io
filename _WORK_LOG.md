@@ -362,3 +362,15 @@ intended use.
   divider dimensions, and viewport fit. Mobile screenshots matched the prior
   version exactly in both languages. Inspected desktop rendering with external
   fonts/embeds blocked. Not deployed.
+
+### Shared menu alignment follow-up
+
+- About's menu was centered in the current local build and its live stylesheet
+  already included the desktop centering rule. Did not establish a page-specific
+  CSS override; browser caching remains a possible explanation for the report.
+- Made text alignment explicit on the shared menu and individual links, with
+  links stretched within their navigation tracks, rather than relying on
+  inherited alignment. Checked computed styles and text positions on all six
+  main pages at desktop, phone, and short-window sizes. Normal vertical menus
+  were centered; short-window two-column menus center within their columns.
+- Jekyll build and diff checks passed. Not published yet.
