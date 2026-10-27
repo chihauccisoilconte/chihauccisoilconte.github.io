@@ -86,3 +86,7 @@ html:lang(zh-CN) .content { line-height: 1.8; }
   #sidebar .language-switcher { font-size: 0.75em; }
   #sidebar .translation-disclaimer { font-size: 0.65em; }
 }
+
+@media (min-width: $large-breakpoint) and (min-height: 601px) {
+  #sidebar .language-switcher { margin: 1.75em 0 0.8em; }
+}
