@@ -73,3 +73,7 @@ html:lang(zh-CN) .content { line-height: 1.8; }
     font-size: 0.75em;
   }
 }
+
+@media (max-width: $large-breakpoint - 0.01rem) {
+  #sidebar .language-switcher { margin: 0.75em 0; }
+}

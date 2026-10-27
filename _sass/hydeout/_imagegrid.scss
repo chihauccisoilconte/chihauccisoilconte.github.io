@@ -117,16 +117,25 @@
 .rig-cell:focus .rig-text { opacity: 1; transform: none; }
 
 @media (hover: none), (max-width: 783px) {
+  #rig, #rig-small {
+    // Use the tallest caption to size every row, so image-to-image gaps match.
+    grid-auto-rows: 1fr;
+  }
+
   .rig-text {
     position: static;
     height: auto;
+    min-height: calc(2.3em + 1rem);
+    align-content: start;
     overflow: visible;
     padding: 0.5rem 0.25rem;
     font-size: 1rem;
+    font-size: clamp(0.75rem, 8cqw, 1rem);
     color: #515151;
     opacity: 1;
     transform: none;
   }
+  .rig-text br { display: none; }
   .rig-overlay { display: none; }
   .rig-cell:hover .rig-text { opacity: 1; }
 }

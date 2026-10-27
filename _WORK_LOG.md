@@ -299,3 +299,28 @@ intended use.
   at the user's request. Search improvements stay in metadata, crawler files,
   and build configuration; no project-content rewrite or visual redesign.
 - Rebuilt and checked all metadata after restoring the copy.
+
+## 2026-10-27 — mobile menu and gallery row spacing follow-up
+
+- Replaced the narrow-screen side-by-side logo/menu with a vertical mobile
+  header: logo, menu, smaller language selector, disclaimer, then social links.
+  Desktop and short-window desktop rules are unchanged.
+- Equalized grid row heights while mobile/touch captions are visible, letting
+  the tallest caption determine row height without clipping text. This fixes
+  the inconsistent first-to-second-row gap caused by wrapping project names.
+- Jekyll build and diff checks passed. Touch-enabled browser checks passed for
+  Home and Design at nine phone/tablet widths in both languages (36 layouts),
+  verifying stacked navigation, equal image-row spacing, and no overflow.
+  Desktop screenshots matched the previous version exactly at 1440x900 and
+  1024x768 in both languages. Inspected mobile screenshots; external embeds
+  and web fonts were blocked during browser tests. No deployment performed.
+
+### Responsive mobile gallery captions
+
+- Added card-width-based caption sizing with a readable 0.75rem–1rem range,
+  disabled forced caption line breaks on mobile/touch layouts, and reserved a
+  consistent two-line caption area. Long titles remain fully visible.
+- Browser checks passed for 36 Home/Design layouts across nine widths in both
+  languages: every caption fits within two lines, row spacing is uniform, and
+  text does not overflow. Desktop screenshots remain identical to the prior
+  desktop design. Jekyll build and diff checks passed. Not deployed.
