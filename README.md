@@ -5,6 +5,26 @@
 
 # Hydeout
 
+### Website languages
+
+The sidebar offers English and Simplified Chinese (简体中文). English is the
+default. The selector remembers the visitor's choice in browser storage and
+adds `?lang=en` or `?lang=zh-CN` to internal page links. Either parameter can
+also be used to share a page in a specific language.
+
+Chinese text is maintained in `_data/zh-CN.json`. Each key is an original
+English text node with surrounding whitespace removed and internal whitespace
+collapsed to a single space. When editing English copy, update the matching
+key and Chinese translation together. Text separated by HTML tags has separate
+entries. `assets/js/translations-zh.js` uses Jekyll to bundle this dictionary;
+`assets/js/language.js` switches text without rebuilding links or galleries.
+
+The selector requires JavaScript. If scripts are unavailable, the original
+English pages remain readable. Project and personal names, publication
+references, downloadable PDFs, and third-party embedded content retain their
+original language. These are client-side translations on the existing URLs;
+they do not create separately indexed Chinese pages.
+
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
 theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
 

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <link rel="canonical" href="{{ page.redirect_to | relative_url }}">
+    <script>
+      // Preserve language selection and other query parameters on old links.
+      var destination = new URL({{ page.redirect_to | relative_url | jsonify }}, window.location.href);
+      destination.search = window.location.search;
+      window.location.replace(destination.href);
+    </script>
+    <noscript><meta http-equiv="refresh" content="0;url={{ page.redirect_to | relative_url }}"></noscript>
+  </head>
+  <body>
+    <p>Outreach is now part of the <a href="{{ page.redirect_to | relative_url }}">About page / 关于页面</a>.</p>
+  </body>
+</html>

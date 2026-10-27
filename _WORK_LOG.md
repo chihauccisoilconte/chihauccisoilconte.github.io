@@ -176,3 +176,61 @@ intended use.
 - Balanced the desktop description with equal space above and below, moving
   existing whitespace above it without increasing total sidebar height.
 - Jekyll build and diff checks passed; local preview regenerated the CSS.
+
+## 2026-10-27 — selectable Simplified Chinese
+
+- Added an English / 简体中文 sidebar selector with remembered preference,
+  shareable language query parameters, and internal-link propagation when
+  browser storage is blocked. Bundled 551 translation entries locally with
+  Jekyll; translated navigation, main-page copy, project descriptions, page
+  titles, and gallery accessibility labels. Original publication references,
+  names, PDFs, and third-party embeds keep their existing language.
+- Preserved original DOM nodes and English copy when switching. Added Chinese
+  font fallbacks and line spacing, visible keyboard focus, and corrected the
+  existing mobile logo width overflow discovered during viewport checks.
+- Jekyll build, JavaScript syntax, existing gallery checks, and browser checks
+  passed. Checked switching and exact English main-markup restoration on all
+  38 root pages with the shared sidebar; checked remembered choice, blocked
+  storage navigation, Chinese gallery controls, and desktop/mobile rendering.
+  Two pre-existing DocAlive YAML warnings remain. No deployment performed.
+- Translation maintenance and client-side indexing limitations are documented
+  in README.md.
+
+### Chinese AI translation disclaimer
+
+- Added a small Chinese notice beneath the language selector: “中文内容由 AI 翻译，可能存在不准确之处。” It appears only when Chinese is selected, on desktop and mobile.
+- Jekyll build and diff checks passed; existing DocAlive YAML warnings remain.
+
+## 2026-10-27 — Outreach merged into About
+
+- Moved the Outreach map, performance table, and visualization credit into the
+  existing About-page Outreach section at `/3about.html#outreach`. Removed the
+  obsolete link to a separate page and removed Outreach from sidebar navigation.
+- Converted `/3outreach.html` into a redirect preserving language/query
+  parameters, with a no-JavaScript fallback. Existing Chinese translations
+  apply to the moved content.
+- Jekyll build and diff checks passed. Verified rendered section/embeds,
+  sidebar navigation, translation coverage, and redirect targets with English,
+  Chinese, and additional query parameters. Existing DocAlive YAML warnings
+  remain. No deployment performed.
+
+### Contact details and social icon order
+
+- Removed the inactive VAT number from Contact. Added an English and Chinese
+  note explaining that, despite being based in China and offering a Chinese
+  website, I do not speak Chinese and should be contacted in English.
+- Reordered the shared sidebar icons: email, GitHub, Facebook, Instagram,
+  Mastodon, LinkedIn, Rednote.
+- Jekyll build and diff checks passed. Verified rendered Contact copy,
+  translation coverage, and all seven icons in order on Home, About, and
+  Contact. Existing DocAlive YAML warnings remain. No deployment performed.
+
+### Final website refinements
+
+- Moved Outreach to the bottom of About. Left-aligned the smaller language
+  selector, increased homepage gallery-to-text spacing, and placed the CMA
+  faculty-profile contact link in its own final paragraph below a divider.
+- Added Ars Electronica and Modular Commune in Beijing to the homepage and
+  Outreach venue lists, with corresponding Chinese translations.
+- Final Jekyll build, JavaScript syntax, gallery checks, and diff checks passed;
+  the two pre-existing DocAlive YAML warnings remain.

@@ -8,6 +8,14 @@
     </a>
   {% endif %}
 
+  {% if site.github.repo %}
+    <a id="github-link"
+       class="icon" title="Github Project" aria-label="Github Project"
+       href="{{ site.github.repo }}" target="_blank">
+      <i class="fab fa-github-square"></i>
+    </a>
+  {% endif %}
+
   {% if site.facebook %}
     <a
        class="icon" title="Facebook" aria-label="Facebook"
@@ -15,7 +23,6 @@
      <i class="fab fa-facebook-square"></i>
     </a>
   {% endif %}
-
 
 {% if site.instagram %}
     <a
@@ -25,17 +32,6 @@
     </a>
   {% endif %}
 
-
-
-{% if site.rednote %}
-    <a
-       class="icon" title="Rednote (小红书)" aria-label="Rednote (小红书)"
-       href="{{ site.rednote | escape }}" target="_blank" rel="noopener noreferrer">
-      {% include svg/rednote.svg %}
-    </a>
-  {% endif %}
-
-
 {% if site.etsy %}
     <a
        class="icon" title="etsy" aria-label="Etsy"
@@ -43,9 +39,6 @@
      <i class="fab fa-etsy"></i>
     </a>
   {% endif %}
-
-
-
 
 {% if site.mastodon %}
     <a
@@ -55,16 +48,6 @@
     </a>
   {% endif %}
 
-
-{% if site.github.repo %}
-    <a id="github-link"
-       class="icon" title="Github Project" aria-label="Github Project"
-       href="{{ site.github.repo }}" target="_blank">
-      <i class="fab fa-github-square"></i>
-    </a>
-  {% endif %}
-
-
 {% if site.linkedin %}
     <a
        class="icon" title="linkedin" aria-label="linkedin"
@@ -73,4 +56,11 @@
     </a>
   {% endif %}
   {% include custom-icon-links.html %}
+  {% if site.rednote %}
+    <a
+       class="icon" title="Rednote (小红书)" aria-label="Rednote (小红书)"
+       href="{{ site.rednote | escape }}" target="_blank" rel="noopener noreferrer">
+      {% include svg/rednote.svg %}
+    </a>
+  {% endif %}
 </nav>
