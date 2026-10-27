@@ -1,0 +1,33 @@
+{% assign metadata_path = page.canonical_url | default: page.url %}
+{% assign seo = site.data.seo.pages[metadata_path] %}
+{% assign meta_title = page.seo_title | default: seo.title %}
+{% unless meta_title %}
+  {% capture meta_title %}{{ page.title | default: site.title }} | {{ site.author.name }}{% endcapture %}
+{% endunless %}
+{% assign meta_title = meta_title | strip_html | normalize_whitespace %}
+{% assign meta_description = page.description | default: seo.description | default: site.seo_description | strip_html | normalize_whitespace %}
+{% assign canonical_path = page.canonical_url | default: seo.canonical | default: page.url | replace: '/index.html', '/' %}
+{% assign canonical_url = canonical_path | absolute_url %}
+{% assign meta_image = page.image | default: seo.image | default: site.social_image | absolute_url %}
+<title>{{ meta_title | escape }}</title>
+<meta name="description" content="{{ meta_description | escape }}">
+<meta name="author" content="{{ site.author.name | escape }}">
+{% if page.noindex or seo.noindex %}
+<meta name="robots" content="noindex, follow">
+{% endif %}
+<link rel="canonical" href="{{ canonical_url | escape }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="{{ meta_title | escape }}">
+<meta property="og:description" content="{{ meta_description | escape }}">
+<meta property="og:url" content="{{ canonical_url | escape }}">
+<meta property="og:image" content="{{ meta_image | escape }}">
+<meta property="og:image:alt" content="{{ seo.image_alt | default: site.title | escape }}">
+<meta name="twitter:card" content="{% if seo.image and seo.image != site.social_image %}summary_large_image{% else %}summary{% endif %}">
+<meta name="twitter:title" content="{{ meta_title | escape }}">
+<meta name="twitter:description" content="{{ meta_description | escape }}">
+<meta name="twitter:image" content="{{ meta_image | escape }}">
+{% unless page.noindex or seo.noindex %}
+{% include structured-data.html %}
+{% endunless %}

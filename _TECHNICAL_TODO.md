@@ -13,7 +13,7 @@ items only after implementation and appropriate verification.
 
 ## 1. Functional fixes
 
-- [ ] Quote the titles in `docaliveworkshopgz.md` and
+- [x] Quote the titles in `docaliveworkshopgz.md` and
   `docaliveworkshophk.md`. Unquoted colons cause YAML warnings and output without
   the intended layout. Confirm both pages render through their layouts.
 - [x] Fix gallery scripts that access nonexistent `.demo` elements. Replaced
@@ -66,11 +66,68 @@ items only after implementation and appropriate verification.
 
 ## 4. Metadata and configuration
 
-- [ ] Set `site.url` to the public origin rather than `/` and verify generated
+- [x] Set `site.url` to the public origin rather than `/` and verify generated
   absolute URLs and the site-search form.
-- [ ] Add page descriptions, canonical links, and social-preview metadata.
-- [ ] Replace the Strophonion placeholder page title `test single project`.
+- [x] Add page descriptions, canonical links, and social-preview metadata.
+- [x] Replace the Strophonion placeholder page title `test single project`.
 - [ ] Centralize contact values so page content and sidebar links stay aligned.
+
+### Search visibility follow-up — saved 2026-10-20
+
+Metadata and sitemap foundations implemented locally on 2026-10-27.
+Search Console/Bing verification, live crawl checks, and deeper project-content
+improvements remain. This is not a live indexing audit.
+
+- [x] Set the public origin to `https://chihauccisoilconte.eu`; verify canonical
+  and other absolute URLs in generated pages.
+- [x] Add unique page descriptions and descriptive titles, canonical links,
+  and Open Graph/social-preview metadata through the shared header. Keep the
+  sidebar's formatted description separate from plain-text metadata.
+  Homepage title: “Nicolò Merendino | Interaction Design & Digital
+  Musical Instruments”.
+- [x] Generate a sitemap containing intended public canonical pages; add a
+  `robots.txt` sitemap reference. Review duplicate/legacy pages before inclusion.
+- [ ] Verify the live site's Google Search Console property, submit the
+  sitemap, and inspect the homepage and main project URLs. Review indexing,
+  search queries, and impressions; consider Bing Webmaster Tools as well.
+  Account verification may require the owner's participation.
+- [ ] Give each project a clear heading and opening paragraph explaining what
+  it is, Nicolò's role, collaborators, techniques, and outcomes. Use accurate
+  terms such as digital musical instruments, tangible interaction, open-source
+  hardware, and digital fabrication naturally. Keep key information in HTML
+  text alongside images/videos; replace generic or missing image alternatives.
+- [ ] Clearly connect “Nicolò Merendino” and “Chi ha ucciso il Conte?” on the
+  homepage and About page. Add accurate Person structured data and official
+  profile links, consistent with visible content. Structured data is complete;
+  homepage wording is intentionally preserved at the owner’s request.
+- [ ] Identify opportunities for relevant links from collaborators, festivals,
+  publications, and repositories to specific project pages. Do not contact
+  anyone without explicit authorization.
+- [ ] Inspect deployed robots rules and any hosting protections for search
+  crawler access, including `OAI-SearchBot`. Search access and training access
+  (`GPTBot`) are separate choices; crawler access does not guarantee inclusion.
+- [ ] Build and inspect generated titles, descriptions, canonical URLs,
+  structured data, and sitemap before publishing. Check live crawl/indexing
+  status after deployment and use measured results to choose further work.
+
+AI search uses many of the same foundations: accessible pages with clear,
+original, attributable information. Do not prioritize speculative AI ranking
+tricks or `llms.txt`; Google says no special AI text file is required for its
+AI search features. No ranking or AI citation outcome is guaranteed.
+
+References for next session (recheck current guidance when implementing):
+
+- https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+- https://developers.google.com/search/docs/monitor-debug/search-console-start
+- https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+- https://developers.openai.com/api/docs/bots
+
+Implementation notes (2026-10-27): metadata is maintained in `_data/seo.json`.
+The sitemap lists 30 canonical public pages. Exact duplicate URLs have canonical
+links; utility/test pages, internal DocAlive mock-ups, and the old CV are marked
+`noindex`. Their URLs and content are retained. The Chinese translation remains
+client-side; separate, rendered Chinese pages with `hreflang` are a follow-up
+for independent Chinese indexing. No account verification or deployment yet.
 
 ## 5. Maintainability
 

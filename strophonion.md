@@ -1,6 +1,6 @@
 ---
 layout: strophonion
-title: test single project
+title: Strophonion
 sidebar_link: false
 
 

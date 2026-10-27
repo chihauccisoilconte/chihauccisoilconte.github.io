@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: page
 title: CV
 sidebar_link: false

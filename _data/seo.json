@@ -1,0 +1,198 @@
+{
+  "pages": {
+    "/": {
+      "title": "Nicolò Merendino | Interaction Design & Digital Musical Instruments",
+      "description": "Nicolò Merendino (Chi ha ucciso il Conte?) is a Guangzhou-based designer and researcher creating digital musical instruments, tangible interfaces, and GUIs.",
+      "sitemap": true,
+      "image": "/img/logo.png",
+      "image_alt": "Chi ha ucciso il Conte? logo"
+    },
+    "/1design.html": {
+      "title": "Interaction Design Portfolio | Nicolò Merendino",
+      "description": "Explore Nicolò Merendino’s electronic musical instruments, tangible interfaces, GUI design, and digital fabrication projects for artists and musicians.",
+      "sitemap": true,
+      "image": "/img/knurl4.png",
+      "image_alt": "Interaction Design Portfolio"
+    },
+    "/2research.html": {
+      "title": "Research & Publications | Nicolò Merendino",
+      "description": "Research by Nicolò Merendino on sustainable design, digital fabrication, and networked musical interfaces, with publications and teaching at HKUST(GZ).",
+      "sitemap": true
+    },
+    "/3about.html": {
+      "title": "About Nicolò Merendino | Designer & Researcher",
+      "description": "Meet Nicolò Merendino, also known as Chi ha ucciso il Conte?: interaction designer, digital fabrication practitioner, researcher, and educator in Guangzhou.",
+      "sitemap": true
+    },
+    "/4CV.html": {
+      "title": "CV — Design, Research & Teaching | Nicolò Merendino",
+      "description": "Nicolò Merendino’s professional experience, education, design skills, research, teaching, awards, and funding. Download his curriculum vitae.",
+      "sitemap": true
+    },
+    "/4contact.html": {
+      "title": "Contact Nicolò Merendino | Design & Research",
+      "description": "Contact Nicolò Merendino for design projects, research, and collaboration. Based in Guangzhou, China; please get in touch in English.",
+      "sitemap": true
+    },
+    "/knurl.html": {
+      "title": "Knurl — Experimental String Instrument | Nicolò Merendino",
+      "description": "Design and digital fabrication contributions to Rafaele Andrade’s Knurl: a 3D-printed, sensor-equipped string instrument for live sound composition.",
+      "sitemap": true,
+      "image": "/img/knurl4.png",
+      "image_alt": "Knurl — Experimental String Instrument"
+    },
+    "/DCM.html": {
+      "title": "Dispositivo Cinetico MIDI | Nicolò Merendino",
+      "description": "An open-source MIDI controller combining buttons and motion sensing. Explore Nicolò Merendino’s design, digital fabrication, hardware, and source code.",
+      "sitemap": true,
+      "image": "/img/DCM4.png",
+      "image_alt": "Dispositivo Cinetico MIDI"
+    },
+    "/strophonion.html": {
+      "title": "Strophonion — Gestural Musical Interface | Nicolò Merendino",
+      "description": "Nicolò Merendino’s design and fabrication work on Strophonion, a wireless gestural instrument for live voice processing, developed with Alex Nowitz.",
+      "sitemap": true,
+      "image": "/img/stroph5.png",
+      "image_alt": "Strophonion — Gestural Musical Interface"
+    },
+    "/akselfoon.html": {
+      "title": "Akselfoon — Accessible Musical Interface | Nicolò Merendino",
+      "description": "Akselfoon is an accessible musical interface with washable, non-toxic handheld and tabletop forms, designed to support bodily musical expression.",
+      "sitemap": true,
+      "image": "/img/ramm4.png",
+      "image_alt": "Akselfoon — Accessible Musical Interface"
+    },
+    "/noiseboard.html": {
+      "title": "Noiseboard — Skateboarding & Sound | Nicolò Merendino",
+      "description": "Noiseboard turns skateboard movement into sound using sensors and wireless communication, combining interaction design, urban space, and performance.",
+      "sitemap": true,
+      "image": "/img/noiseboard4.png",
+      "image_alt": "Noiseboard — Skateboarding & Sound"
+    },
+    "/komorebi.html": {
+      "title": "Komorebi — Spatial Sound Installation | Nicolò Merendino",
+      "description": "Design and 3D-modeling contributions to Komorebi, a swarm of electronic creatures creating spatial music in response to sunlight and their surroundings.",
+      "sitemap": true,
+      "image": "/img/kom5.png",
+      "image_alt": "Komorebi — Spatial Sound Installation"
+    },
+    "/mcgui.html": {
+      "title": "MotionComposer — GUI Design | Nicolò Merendino",
+      "description": "Graphical user interface design for MotionComposer, helping caregivers navigate movement-to-music modes, camera views, sound settings, and controls.",
+      "sitemap": true,
+      "image": "/img/mcgui0.png",
+      "image_alt": "MotionComposer — GUI Design"
+    },
+    "/mcc.html": {
+      "title": "MotionComposer — Chassis Design | Nicolò Merendino",
+      "description": "Nicolò Merendino’s chassis design for MotionComposer, an accessible device that transforms movement into music for people with different abilities.",
+      "sitemap": true,
+      "image": "/img/mcc1.png",
+      "image_alt": "MotionComposer — Chassis Design"
+    },
+    "/fello.html": {
+      "title": "Fello — Sensor-Equipped Cello Bow | Nicolò Merendino",
+      "description": "CAD and 3D-printing work for Andi Otto’s Fello, a sensor-equipped cello bow that connects movement and finger pressure with live sound processing.",
+      "sitemap": true,
+      "image": "/img/fello4.png",
+      "image_alt": "Fello — Sensor-Equipped Cello Bow"
+    },
+    "/nanoaetherphone.html": {
+      "title": "Nano Aetherphone — Digital Theremin | Nicolò Merendino",
+      "description": "Nano Aetherphone reinterprets the theremin as a compact digital instrument, using open hardware, open software, and a customizable tangible interface.",
+      "sitemap": true,
+      "image": "/img/nanoaetherphone6.png",
+      "image_alt": "Nano Aetherphone — Digital Theremin"
+    },
+    "/nanoaetherphone2.html": {
+      "title": "Nano Aetherphone II — MIDI Controller | Nicolò Merendino",
+      "description": "Nano Aetherphone II is an open-source MIDI controller inspired by the theremin, with a compact physical interface designed for expressive performance.",
+      "sitemap": true,
+      "image": "/img/na2.5.png",
+      "image_alt": "Nano Aetherphone II — MIDI Controller"
+    },
+    "/b58bpm.html": {
+      "title": "Below 58 BPM — Wearable Musical Interface | Nicolò Merendino",
+      "description": "Below 58 BPM explores wearable heart-rate feedback and sound processing in opera performance, developed with and for singer Eleonora Amianto.",
+      "sitemap": true,
+      "image": "/img/b58bpm5.png",
+      "image_alt": "Below 58 BPM — Wearable Musical Interface"
+    },
+    "/cracklesynth.html": {
+      "title": "Crackle Synth 2.0 — Instrument Redesign | Nicolò Merendino",
+      "description": "A contemporary redesign of Michel Waisvisz’s Crackle Synth, exploring the instrument’s form, tactile interface, digital fabrication, and portability.",
+      "sitemap": true,
+      "image": "/img/crack1.png",
+      "image_alt": "Crackle Synth 2.0 — Instrument Redesign"
+    },
+    "/oddknobs.html": {
+      "title": "Odd Knobs — Tactile Synthesizer Controls | Nicolò Merendino",
+      "description": "Odd Knobs explores recognizable tactile shapes for synthesizer controls, with five knob designs in two sizes for accessible and expressive interfaces.",
+      "sitemap": true,
+      "image": "/img/oddknobs1.png",
+      "image_alt": "Odd Knobs — Tactile Synthesizer Controls"
+    },
+    "/Lampyridae.html": {
+      "title": "Lampyridae — Participatory Sound & Light | Nicolò Merendino",
+      "description": "Design and digital fabrication of handheld creatures for Lampyridae, a participatory installation by Matteo Marangoni and Dieter Vandoren.",
+      "sitemap": true,
+      "image": "/img/lamp1.jpg",
+      "image_alt": "Lampyridae — Participatory Sound & Light"
+    },
+    "/lightseq.html": {
+      "title": "LightSeq — Light-Based Musical Interface | Nicolò Merendino",
+      "description": "Design and fabrication for Kacper Ziemianin’s LightSeq: a DIY performance system translating programmed light patterns into electronic music.",
+      "sitemap": true,
+      "image": "/img/lightseq1.jpg",
+      "image_alt": "LightSeq — Light-Based Musical Interface"
+    },
+    "/punkidelay.html": {
+      "title": "Punkidelay — DIY Synthesizer Enclosure | Nicolò Merendino",
+      "description": "A laser-cut polycarbonate enclosure for Punkidelay, a DIY stylophone-style synthesizer based on the Atari Punk Console.",
+      "sitemap": true,
+      "image": "/img/familiar5.png",
+      "image_alt": "Punkidelay — DIY Synthesizer Enclosure"
+    },
+    "/soniccube.html": {
+      "title": "Sonic Cube — Playful MIDI Interface | Nicolò Merendino",
+      "description": "Sonic Cube uses conductive embroidery, motion sensing, and an ESP32 to turn holding and throwing a soft fabric cube into wireless MIDI interaction.",
+      "sitemap": true,
+      "image": "/img/soniccubes0.png",
+      "image_alt": "Sonic Cube — Playful MIDI Interface"
+    },
+    "/wonkydrumseq.html": {
+      "title": "Wonky Drum Seq — DIY MIDI Sequencer | Nicolò Merendino",
+      "description": "An open-source MIDI step sequencer developed with STEIM, used in a hands-on workshop teaching controller design and digital fabrication.",
+      "sitemap": true,
+      "image": "/img/wds6.png",
+      "image_alt": "Wonky Drum Seq — DIY MIDI Sequencer"
+    },
+    "/5nimeworkshop.html": {
+      "title": "NIME Eco Wiki & Digital Fabrication Workshop | Nicolò Merendino",
+      "description": "A NIME workshop exploring digital fabrication, hardware longevity, and environmentally aware musical interface design through the NIME Eco Wiki.",
+      "sitemap": true
+    },
+    "/6iiiworkshop.html": {
+      "title": "Open-Source CAD Workshops at iii | Nicolò Merendino",
+      "description": "Hands-on KiCAD, FreeCAD, and Inkscape workshops at Instrument Inventors Initiative, exploring open-source design and sustainable hardware prototyping.",
+      "sitemap": true
+    },
+    "/cmadigfabandphyscomp.html": {
+      "title": "Digital Fabrication & Physical Computing Course | Nicolò Merendino",
+      "description": "An overview of Nicolò Merendino’s course on digital fabrication and physical computing.",
+      "sitemap": true
+    },
+    "/noinmaer.html": {
+      "title": "No-gos, Incidents, Malfunctions and Errors | Performance Zine",
+      "description": "A collaborative, non-profit zine collecting stories of failed experimental performances, self-built instruments, and idiosyncratic musical systems.",
+      "sitemap": true,
+      "image": "/img/noinmaer.png",
+      "image_alt": "No-gos, Incidents, Malfunctions and Errors"
+    },
+    "/7barondeathwavebarberini.html": {
+      "title": "Baron Deathwave Barberini | Fiction by Nicolò Merendino",
+      "description": "A fictional, humorous supervillain story by Nicolò Merendino, imagining sonic weapons, ancient resonance, and the frustrations of creative work.",
+      "sitemap": true
+    }
+  }
+}

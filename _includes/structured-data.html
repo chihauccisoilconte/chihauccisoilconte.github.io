@@ -1,0 +1,46 @@
+{% assign person_id = '/3about.html#person' | absolute_url %}
+{% assign website_id = '/#website' | absolute_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ site.author.name | jsonify }},
+      "alternateName": {{ site.title | jsonify }},
+      "url": {{ '/3about.html' | absolute_url | jsonify }},
+      "jobTitle": "Interaction designer and researcher",
+      "knowsAbout": ["Interaction design", "Digital musical instruments", "Digital fabrication", "Sustainable design practices"],
+      "sameAs": [
+        {{ site.linkedin | jsonify }},
+        {{ site.github.repo | jsonify }},
+        {{ site.instagram | jsonify }},
+        {{ site.mastodon | jsonify }},
+        "https://orcid.org/0000-0003-1970-2769",
+        "https://cma.hkust-gz.edu.cn/faculty-regular/nicolo-merendino/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ website_id | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "alternateName": "Nicolò Merendino — Interaction Design",
+      "publisher": { "@id": {{ person_id | jsonify }} },
+      "inLanguage": "en"
+    },
+    {
+      "@type": {% if page.url == '/3about.html' %}"ProfilePage"{% else %}"WebPage"{% endif %},
+      "@id": {{ canonical_url | append: '#webpage' | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "name": {{ meta_title | jsonify }},
+      "description": {{ meta_description | jsonify }},
+      "inLanguage": "en",
+      "isPartOf": { "@id": {{ website_id | jsonify }} },
+      "about": { "@id": {{ person_id | jsonify }} }{% if page.url == '/3about.html' %},
+      "mainEntity": { "@id": {{ person_id | jsonify }} }{% endif %}
+    }
+  ]
+}
+</script>

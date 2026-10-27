@@ -25,6 +25,34 @@ references, downloadable PDFs, and third-party embedded content retain their
 original language. These are client-side translations on the existing URLs;
 they do not create separately indexed Chinese pages.
 
+### Search metadata
+
+`_data/seo.json` contains the search title, description, and optional sharing
+image for each public page. Keep descriptions specific to the actual project
+and describe Nicolò's contribution accurately. Add `sitemap: true` to include
+a new canonical public page in `/sitemap.xml`. Images must exist in the repo;
+pages without an image use the site logo. Page front matter can override
+`seo_title`, `description`, `image`, and `canonical_url`.
+
+The shared head outputs descriptions, canonical URLs, Open Graph/Twitter
+previews, and JSON-LD about the site and its author. `noindex: true` excludes
+drafts, utility pages, and the old CV from indexing; keep these out of the
+sitemap too. Duplicate pages retain their URLs and reference their preferred
+canonical page. These controls affect search discovery, not access or privacy.
+
+After publishing, verify the domain in Google Search Console and Bing
+Webmaster Tools, submit `https://chihauccisoilconte.eu/sitemap.xml`, and inspect
+important URLs. Google or Bing verification tags can be added to the custom
+head if those services request them. Do not add a guessed verification token.
+
+`robots.txt` permits crawler access and advertises the sitemap. There is no
+separate training opt-in/out rule: search crawling and AI training are distinct
+choices, and crawler access alone does not guarantee indexing or AI citations.
+The Chinese selector remains a browser-side translation; use separately
+rendered Chinese URLs and `hreflang` for independently indexed Chinese pages.
+
+Validate a build with `python3 _scripts/check-metadata.py /path/to/built/site`.
+
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
 theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
 

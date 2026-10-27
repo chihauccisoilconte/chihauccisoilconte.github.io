@@ -1,6 +1,7 @@
 ---
+noindex: true
 layout: page
-title: DocAlive Workshop: Reflecting on Documentation, Archiving and Re-activation Practices in Multimedia Arts
+title: "DocAlive Workshop: Reflecting on Documentation, Archiving and Re-activation Practices in Multimedia Arts"
 sidebar_link: false
 
 ---

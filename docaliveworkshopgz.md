@@ -1,6 +1,7 @@
 ---
+noindex: true
 layout: page
-title: DocAlive Workshop: Rethinking Documentation Practices in Multimedia Design
+title: "DocAlive Workshop: Rethinking Documentation Practices in Multimedia Design"
 sidebar_link: false
 
 ---

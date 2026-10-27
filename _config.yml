@@ -6,8 +6,10 @@ highlighter:      rouge
 title:            Chi ha ucciso il Conte?
 tagline:          'Design'
 description:      'UX/UI Design <br>Digital Fabrication<br> Research'
+seo_description:  'Nicolò Merendino is an interaction designer and researcher based in Guangzhou, working on digital musical instruments, tangible interfaces, and digital fabrication.'
+social_image:     /img/logo.png
 
-url:              /
+url:              https://chihauccisoilconte.eu
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -16,7 +18,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
 
 author:
   name:           'Nicolò Merendino'
-  url:            https://twitter.com/chihauccilconte
+  url:            https://chihauccisoilconte.eu/3about.html
 
 paginate:         5
 # paginate_path:    '/page:num'

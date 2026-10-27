@@ -177,6 +177,15 @@ intended use.
   existing whitespace above it without increasing total sidebar height.
 - Jekyll build and diff checks passed; local preview regenerated the CSS.
 
+## 2026-10-20 — search visibility planning
+
+- Saved the Google/search-engine and AI search recommendations in
+  `_TECHNICAL_TODO.md`, under “Search visibility follow-up”.
+- Next session: start with metadata/public origin, sitemap, and project
+  introductions, then Search Console verification and live indexing checks.
+- Planning only: no site implementation, deployment, or external account
+  changes. The review covered local source, not live indexing status.
+
 ## 2026-10-27 — selectable Simplified Chinese
 
 - Added an English / 简体中文 sidebar selector with remembered preference,
@@ -255,3 +264,38 @@ intended use.
   Inspected desktop/mobile/landscape screenshots. External embeds and web fonts
   were blocked during these browser checks; pre-existing DocAlive YAML build
   warnings remain. No deployment performed.
+
+## 2026-10-27 — search and AI discovery metadata
+
+- Set the canonical public origin to `https://chihauccisoilconte.eu` and added
+  descriptive search titles and unique summaries for 30 canonical public pages
+  in `_data/seo.json`. Shared HTML now includes canonical links, Open Graph /
+  Twitter previews, author metadata, and JSON-LD Person/WebSite/WebPage graphs;
+  About is a ProfilePage linked to the same Person entity and official profiles.
+- Added a curated sitemap and crawler-accessible robots file. No separate AI
+  training policy was introduced; search crawling and training are separate.
+  Exact duplicate URLs reference their preferred canonical page. Utility/test
+  pages, the old CV, and explicitly internal DocAlive mock-ups use noindex and
+  are omitted from the sitemap; all original URLs and content remain available.
+- Fixed the DocAlive YAML titles so metadata/noindex actually render, removing
+  the previous build warnings. Replaced Strophonion's placeholder page title.
+  Kept the existing homepage wording and Chinese translation. The structured
+  metadata connects the practice name with Nicolò Merendino behind the scenes;
+  main-page browser titles have matching Chinese translations.
+- Added `_scripts/check-metadata.py` to verify all 30 sitemap entries, unique
+  titles/descriptions, absolute canonicals, existing sharing images, JSON-LD,
+  noindex pages, duplicate URLs, crawler access, and the corrected site-search
+  domain. Jekyll build, metadata checks, gallery checks, and diff checks passed.
+- Reviewed official Google guidance on AI search, canonicalization, snippets,
+  sitemaps, ProfilePage data and multilingual sites, plus OpenAI crawler docs.
+  Documented maintenance and next steps in README and the technical checklist.
+  Search Console/Bing setup, live crawl/indexing verification, independently
+  rendered Chinese pages, and deployment remain outstanding. No indexing,
+  ranking, rich-result, or AI-citation outcome is claimed.
+
+### Metadata scope clarification
+
+- Restored the original homepage wording and its original Chinese translation
+  at the user's request. Search improvements stay in metadata, crawler files,
+  and build configuration; no project-content rewrite or visual redesign.
+- Rebuilt and checked all metadata after restoring the copy.

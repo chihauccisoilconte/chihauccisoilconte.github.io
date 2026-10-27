@@ -1,0 +1,13 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% assign ordered_pages = site.pages | sort: 'url' %}
+{% for node in ordered_pages %}
+  {% assign seo = site.data.seo.pages[node.url] %}
+  {% if seo.sitemap %}
+  <url><loc>{{ node.url | absolute_url | xml_escape }}</loc></url>
+  {% endif %}
+{% endfor %}
+</urlset>

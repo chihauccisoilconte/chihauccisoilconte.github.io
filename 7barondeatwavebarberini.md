@@ -1,4 +1,5 @@
 ---
+canonical_url: /7barondeathwavebarberini.html
 layout: page
 title: Baron Deathwave Barberini
 sidebar_link: false
