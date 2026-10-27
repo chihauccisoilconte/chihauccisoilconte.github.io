@@ -1,32 +1,38 @@
-#rig {
-    max-width:1000px;
-    padding:0;
-    font-size:0; /* Remember to change it back to normal font size if have captions */
-    list-style:none;
-    background-color:#ffffffff
+// Grid rows keep image tops aligned even when captions wrap differently.
+#rig, #rig-small {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
 }
 
+#rig-small { max-width: 700px; }
 
-#rig-small {
-    max-width:700px;
-    padding:0;
-    font-size:0; /* Remember to change it back to normal font size if have captions */
-    list-style:none;
-    background-color:#ffffffff
+#rig > li, #rig-small > li {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
 }
 
-
-#rig li {
-    display: inline-block;
-    *display:inline;/*for IE6 - IE7*/
-    width:25%;
-    vertical-align:middle;
-    box-sizing:border-box;
-    margin:20;
-    padding-top:20px;
-    padding-right:20px;
+.projectslist .content, .projectslistportfolio .content {
+    container-type: inline-size;
 }
-        
+
+@container (max-width: 600px) {
+    #rig, #rig-small { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@container (max-width: 420px) {
+    #rig, #rig-small { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@container (max-width: 240px) {
+    #rig, #rig-small { grid-template-columns: minmax(0, 1fr); }
+}
+
 /* The wrapper for each item */
 .rig-cell {
     /*margin:px;
@@ -38,13 +44,14 @@
 }
         
 /* Keep the image box free of inline-picture space and global image margins. */
-.rig-cell picture { display: block; }
+.rig-cell picture { display: block; aspect-ratio: 8 / 5; overflow: hidden; }
 
 /* If have the image layer */
 .rig-img {
     display:block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     margin: 0;
     border:none;
     transform:scale(1);
@@ -105,24 +112,6 @@
     opacity:0.9;
 }
 
-@media (max-width: 9000px) {
-    #rig li {
-        width:25%;
-    }
-}
-
-@media (max-width: 700px) {
-    #rig li {
-        width:33.33%;
-    }
-}
-
-@media (max-width: 550px) {
-    #rig li {
-        width:50%;
-    }
-}
-
 .rig-cell:focus-visible { outline: 3px solid #515151; outline-offset: 3px; }
 .rig-cell:focus .rig-overlay { opacity: 0.8; }
 .rig-cell:focus .rig-text { opacity: 1; transform: none; }
@@ -140,9 +129,4 @@
   }
   .rig-overlay { display: none; }
   #rig li:hover .rig-text { opacity: 1; }
-}
-
-// The sidebar leaves less room for portfolio cards on tablets.
-@media (min-width: 784px) and (max-width: 1120px) {
-  #rig li { width: 50%; }
 }

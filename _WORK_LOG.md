@@ -234,3 +234,24 @@ intended use.
   Outreach venue lists, with corresponding Chinese translations.
 - Final Jekyll build, JavaScript syntax, gallery checks, and diff checks passed;
   the two pre-existing DocAlive YAML warnings remain.
+
+## 2026-10-27 — responsive sidebar and aligned mobile galleries
+
+- Sized the desktop sidebar logo, typography, and spacing for viewport height,
+  keeping menu text at least 14px. Switched phones and windows at most 600px
+  high to a compact header with a two-column menu and no independent sidebar
+  scrollbar; navigation remains available in the normal page flow.
+- Replaced inline-block portfolio cards with responsive CSS grids using the
+  available content width. Rows align at the top despite wrapping captions;
+  thumbnails keep consistent proportions. Fixed nested/unclosed gallery-list
+  markup on Home and Design, while retaining the extra gap below Home's grid.
+- Corrected the homepage cascade so the Chinese AI disclaimer stays hidden in
+  English. Language controls remain smaller and aligned with the compact menu.
+- Jekyll build, diff checks, and existing gallery tests passed. Headless browser
+  checks passed for Home, Design, and Knurl in both languages at 19 viewport
+  sizes (114 combinations), including phone/landscape, desktop, and short
+  windows. Checked sidebar fitting, menu visibility, horizontal overflow,
+  aligned gallery rows, disclaimer switching, and mobile lightbox controls.
+  Inspected desktop/mobile/landscape screenshots. External embeds and web fonts
+  were blocked during these browser checks; pre-existing DocAlive YAML build
+  warnings remain. No deployment performed.

@@ -5,7 +5,7 @@
 
 @import "hydeout";
 
-.home #rig > p:first-of-type {
+.home #rig + p {
   margin-top: 1.5rem;
 }
 
@@ -55,6 +55,7 @@
 }
 
 html:lang(zh-CN) #sidebar .translation-disclaimer { display: block; }
+html:not(:lang(zh-CN)) #sidebar .translation-disclaimer { display: none; }
 
 html:lang(zh-CN) body {
   font-family: Roboto, "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif;
@@ -62,9 +63,13 @@ html:lang(zh-CN) body {
 
 html:lang(zh-CN) .content { line-height: 1.8; }
 
-@media (max-width: $large-breakpoint - 0.01rem) {
-  #sidebar .side-logo {
-    width: calc(100% + 4rem);
-    max-width: calc(100% + 4rem);
+// Keep the controls compact when the sidebar becomes a page header.
+@media (max-width: $large-breakpoint - 0.01rem), (max-height: 600px) {
+  #sidebar .language-switcher { margin: 0; }
+  #sidebar .translation-disclaimer {
+    max-width: none;
+    margin: 0;
+    text-align: left;
+    font-size: 0.75em;
   }
 }

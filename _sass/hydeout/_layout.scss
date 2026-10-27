@@ -328,43 +328,111 @@ font-weight:300;
   .content { padding: 1rem; }
 }
 
-// Size the entire desktop sidebar from one height-aware unit. Keep em-based
-// dimensions together so the logo, text, icons and whitespace shrink equally.
-// Leave overflow available for unusually large text or future navigation items.
+// Fit the sidebar to the viewport while retaining readable menu text.
 @media (min-width: $large-breakpoint) {
   #sidebar, .home #sidebar, .index #sidebar {
-    font-size: unquote("min(1rem, 2.35vh)");
+    font-size: unquote("clamp(14px, 2.05vh, 20px)");
     width: 18em;
-    padding: 2em;
+    padding: 1.5em;
+    overflow: visible;
 
     .sidebar-logo-link {
       display: block;
-      margin: -2em -2em 0;
+      height: unquote("min(28vh, 18em)");
+      margin: -1.5em -1.5em 0;
+      background: #e5e5e5;
     }
 
     .side-logo {
       width: 100%;
+      height: 100%;
+      object-fit: contain;
       max-width: 100%;
       margin: 0;
       padding: 0;
     }
 
-    // Balance the description between the logo and menu without adding height.
-    header { padding: 1.5em 0 0.5em; }
-    .site-title {
-      font-size: 3.25em;
-      margin-bottom: 0;
-    }
+    header { padding: 1em 0 0.75em; }
+    .site-title { margin: 0; }
     .lead {
       font-size: 0.8em;
-      margin-bottom: 1.25em;
+      line-height: 1.5;
+      margin: 0;
     }
 
+    #sidebar-nav-links > a { line-height: 1.6; }
     #sidebar-icon-links {
+      flex-wrap: wrap;
       gap: 0.5em;
-      margin-top: 1em;
+      margin-top: 0.75em;
     }
-
     nav > .icon { font-size: 1.25em; }
+  }
+}
+
+// Phones and short landscape windows get a compact header, with no separate
+// sidebar scroller and no need to shrink the menu to unreadable sizes.
+@media (max-width: $large-breakpoint - 0.01rem), (max-height: 600px) {
+  body {
+    flex-direction: column;
+    height: auto;
+  }
+
+  body > #sidebar, body > .container {
+    max-height: none;
+    height: auto;
+    overflow: visible;
+  }
+
+  #sidebar, .home #sidebar, .index #sidebar {
+    display: grid;
+    grid-template-columns: unquote("clamp(80px, 25vw, 120px)") minmax(0, 1fr);
+    column-gap: 1rem;
+    row-gap: 0.75rem;
+    align-items: start;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: left;
+
+    .sidebar-logo-link {
+      grid-column: 1;
+      grid-row: 1 / span 2;
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+    .side-logo {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    header { display: none; }
+
+    header ~ #sidebar-nav-links {
+      grid-column: 2;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.25em 0.5em;
+    }
+    #sidebar-nav-links > a {
+      min-width: 0;
+      line-height: 1.75;
+      overflow-wrap: anywhere;
+    }
+    .language-switcher { grid-column: 2; }
+    .translation-disclaimer { grid-column: 1 / -1; }
+    #sidebar-icon-links {
+      grid-column: 1 / -1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 0.75em;
+      margin: 0;
+    }
+    > *:last-child { margin-bottom: 0; }
   }
 }
