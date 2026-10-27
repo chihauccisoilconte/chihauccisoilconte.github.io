@@ -324,3 +324,14 @@ intended use.
   languages: every caption fits within two lines, row spacing is uniform, and
   text does not overflow. Desktop screenshots remain identical to the prior
   desktop design. Jekyll build and diff checks passed. Not deployed.
+
+### Mobile branding row
+
+- Made the mobile branding row span the viewport, with the logo flush to the
+  top-left edge and the existing UX/UI Design / Digital Fabrication / Research
+  description beside it. Kept the menu and language controls stacked below.
+- Jekyll build and diff checks passed. Touch-enabled checks passed across 36
+  layouts, verifying edge alignment, a visible three-line description, caption
+  sizing, equal gallery rows, and no overflow. Desktop screenshots matched the
+  prior version exactly in both languages at 1440x900 and 1024x768. External
+  embeds and fonts were blocked during browser tests. Not deployed.
