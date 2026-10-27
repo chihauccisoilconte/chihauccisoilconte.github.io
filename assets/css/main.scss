@@ -81,3 +81,8 @@ html:lang(zh-CN) .content { line-height: 1.8; }
   }
   #sidebar .translation-disclaimer { text-align: center; }
 }
+
+@media (min-width: $large-breakpoint) {
+  #sidebar .language-switcher { font-size: 0.75em; }
+  #sidebar .translation-disclaimer { font-size: 0.65em; }
+}
