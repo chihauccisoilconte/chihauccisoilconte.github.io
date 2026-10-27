@@ -475,7 +475,10 @@ font-weight:300;
       text-align: left;
     }
     #sidebar-nav-links > a { line-height: 1.8; }
-    #sidebar-icon-links { margin-top: 0.75em; }
+    #sidebar-icon-links {
+      justify-content: center;
+      margin-top: 0.75em;
+    }
   }
 
   // Interior page titles previously inherited a negative top margin.
