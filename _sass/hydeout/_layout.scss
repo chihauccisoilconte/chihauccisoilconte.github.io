@@ -358,6 +358,7 @@ font-weight:300;
       text-align: center;
     }
 
+    #sidebar-nav-links { text-align: center; }
     #sidebar-nav-links > a { line-height: 1.75; }
     #sidebar-icon-links {
       flex-wrap: wrap;
@@ -475,7 +476,7 @@ font-weight:300;
     #sidebar-nav-links > a { line-height: 1.8; }
     #sidebar-icon-links {
       justify-content: center;
-      margin-top: 0.75em;
+      margin-top: 0.4em;
     }
   }
 
