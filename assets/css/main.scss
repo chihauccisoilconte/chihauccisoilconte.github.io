@@ -57,6 +57,11 @@
 html:lang(zh-CN) #sidebar .translation-disclaimer { display: block; }
 html:not(:lang(zh-CN)) #sidebar .translation-disclaimer { display: none; }
 
+.disclaimer-emoji {
+  display: inline-block;
+  filter: grayscale(1);
+}
+
 html:lang(zh-CN) body {
   font-family: Roboto, "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif;
 }
