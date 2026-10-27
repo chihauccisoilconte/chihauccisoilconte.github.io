@@ -88,5 +88,17 @@ html:lang(zh-CN) .content { line-height: 1.8; }
 }
 
 @media (min-width: $large-breakpoint) and (min-height: 601px) {
+  #sidebar-nav-links::before,
+  #sidebar-nav-links::after {
+    content: "";
+    display: block;
+    flex: 0 0 auto;
+    width: 50%;
+    border-top: 1px solid rgba(255, 255, 255, 0.22);
+  }
+
+  #sidebar-nav-links::before { margin: 0 auto 1.5em; }
+  #sidebar-nav-links::after { margin: 1.5em auto 0; }
+
   #sidebar .language-switcher { margin: 2em 0 0.4em; }
 }

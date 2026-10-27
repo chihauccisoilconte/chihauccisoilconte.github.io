@@ -351,3 +351,14 @@ intended use.
   Desktop screenshots matched the prior version exactly in both languages at
   1440x900 and 1024x768. Inspected mobile screenshots; external embeds and web
   fonts were blocked during browser checks. Not deployed.
+
+### Desktop sidebar dividers and spacing
+
+- Added centered, half-width, 1px gray dividers above and below the desktop
+  navigation, increased description padding, and loosened menu line spacing.
+  Language controls, disclaimer, and social icons remain grouped below.
+- Jekyll build and diff checks passed. Browser checks passed on 20 desktop
+  layouts across five sizes in both languages, checking increased spacing,
+  divider dimensions, and viewport fit. Mobile screenshots matched the prior
+  version exactly in both languages. Inspected desktop rendering with external
+  fonts/embeds blocked. Not deployed.
