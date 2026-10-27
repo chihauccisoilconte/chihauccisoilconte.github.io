@@ -58,7 +58,7 @@ The events will take place at iii on the 21st of September (KiCAD), on the 22nd 
 </p>
 
 <p>
-<b> The Instructor  - </b> "Chi Ha Ucciso il Conte?" is a pseudonym for the Parma (Italy) based UX/UI designer Nicolò Merendino. It is not a random fact that "Chi Ha Ucciso Il Conte?" is a question, not a statement. My approach to Design starts from the idea that Design is a process that requires people to ask themselves many questions.
+<b> The Instructor  - </b> "Chi Ha Ucciso il Conte?" is a pseudonym for the Parma (Italy) based interaction designer Nicolò Merendino. It is not a random fact that "Chi Ha Ucciso Il Conte?" is a question, not a statement. My approach to Design starts from the idea that Design is a process that requires people to ask themselves many questions.
 "Chi Ha Ucciso il Conte?" is specialized in developing the Design of electronic music instruments and components for media art installations. His work involves understanding and translating the artist's needs into usable and expressive shapes. Nick is skilled in using Digital Fabrication techniques; starting from an internship at STEIM in the Netherlands, he already collaborated with the development of many electronic music instruments and sound installations all over Europe and beyond.
 </p>
 

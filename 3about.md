@@ -12,7 +12,7 @@ sidebar_link: true
  <p> <font size="5"> <b>Design </b> </font> </p>
 
 <p>
-My name is Nicolò Merendino and I work as a UX/UI designer under the pseudonym "Chi ha Ucciso il Conte?" My work primarily focuses on <b>creating interfaces for electronic music and multimedia arts </b>, collaborating with artists to design and build custom instruments that support their creative practices. <br>I specialize in both <b>designing and constructing</b> electronic devices as well as developing graphical user interfaces tailored to specific needs.
+My name is Nicolò Merendino and I work as an interaction designer under the pseudonym "Chi ha Ucciso il Conte?" My work primarily focuses on <b>creating interfaces for electronic music and multimedia arts </b>, collaborating with artists to design and build custom instruments that support their creative practices. <br>I specialize in both <b>designing and constructing</b> electronic devices as well as developing graphical user interfaces tailored to specific needs.
 I am specialized in the use of <b>Free/Libre Open Source Software</b>
 <br><br>
 With a strong background in <b>digital fabrication</b>, I operate my own fabrication lab and have previously served as a lab manager in FabLabs, overseeing a range of projects.

@@ -155,7 +155,7 @@ Aug 2012 - Dec 2012 - Rome (IT) <br>
  <p>-<b> Digital Fabrication </b> <br>- 3D printing <br> - 3 axis CNC Milling <br>- laser cutting <br>- vinyl cutting
  </p>
 
-  <p>-<b> UX/UI Design </b> <br>- Processing and Arduino programming
+  <p>-<b> Interaction Design </b> <br>- Processing and Arduino programming
  <br> - Figma <br>- Penpot <br> - Libre CAD <br> - Godot Engine (GUI development) <br> - Microcontroller (Arduino, Esp32 etc..) programming
  </p>
 

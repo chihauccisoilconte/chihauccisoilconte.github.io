@@ -374,3 +374,13 @@ intended use.
   main pages at desktop, phone, and short-window sizes. Normal vertical menus
   were centered; short-window two-column menus center within their columns.
 - Jekyll build and diff checks passed. Not published yet.
+
+### Interaction Design wording throughout the site
+
+- Updated the homepage introduction, About biography, CV skills heading, and
+  iii workshop instructor biography from UX/UI to interaction design, with
+  matching Chinese dictionary keys and translations. Search metadata already
+  used interaction design and needed no wording changes.
+- Jekyll build, all metadata checks, rendered-copy/translation checks, and diff
+  checks passed. No remaining UX/UI references in published source copy or the
+  translation dictionary. Downloadable PDFs were not edited. Not deployed.
