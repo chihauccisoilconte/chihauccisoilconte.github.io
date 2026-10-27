@@ -87,18 +87,21 @@ html:lang(zh-CN) .content { line-height: 1.8; }
   #sidebar .translation-disclaimer { font-size: 0.65em; }
 }
 
-@media (min-width: $large-breakpoint) and (min-height: 601px) {
+@media (min-width: $large-breakpoint) and (min-height: 601px),
+       (max-width: $large-breakpoint - 0.01rem) {
   #sidebar-nav-links::before,
   #sidebar-nav-links::after {
     content: "";
     display: block;
     flex: 0 0 auto;
-    width: 50%;
+    width: 60%;
     border-top: 1px solid rgba(255, 255, 255, 0.22);
   }
 
   #sidebar-nav-links::before { margin: 0 auto 1.5em; }
   #sidebar-nav-links::after { margin: 1.5em auto 0; }
+}
 
+@media (min-width: $large-breakpoint) and (min-height: 601px) {
   #sidebar .language-switcher { margin: 2em 0 0.4em; }
 }
