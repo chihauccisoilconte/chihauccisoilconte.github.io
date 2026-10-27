@@ -335,3 +335,19 @@ intended use.
   sizing, equal gallery rows, and no overflow. Desktop screenshots matched the
   prior version exactly in both languages at 1440x900 and 1024x768. External
   embeds and fonts were blocked during browser tests. Not deployed.
+
+### Full-width mobile logo and page-title spacing
+
+- Changed only the narrow-screen layout: logo spans the viewport and touches
+  the top and both side edges; the three-line description is centered below.
+  Kept navigation left-aligned and increased its text from 16px to 18px.
+- Removed the inherited negative margin above mobile interior-page headings,
+  centered their titles, and added balanced spacing after the social links.
+  Centered Home/Design headings consistently within their content layouts.
+- Jekyll build and diff checks passed. Touch-enabled browser checks passed on
+  54 Home/Design/About layouts across nine widths in both languages, verifying
+  full-width logo placement, centered descriptions/headings, menu size, title
+  separation, caption wrapping, consistent gallery rows, and no overflow.
+  Desktop screenshots matched the prior version exactly in both languages at
+  1440x900 and 1024x768. Inspected mobile screenshots; external embeds and web
+  fonts were blocked during browser checks. Not deployed.
