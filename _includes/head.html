@@ -1,7 +1,12 @@
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile" />
+  <link href="https://gmpg.org/xfn/11" rel="profile" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Meta CSP supports static GitHub Pages; server-only headers require hosting configuration.
+       Keep existing gallery event handlers; restrict script elements to these sources. -->
+  <meta http-equiv="Content-Security-Policy" content="base-uri 'self'; object-src 'none'; script-src-elem 'self' https://public.flourish.studio; form-action 'self' https://google.com https://www.google.com; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />

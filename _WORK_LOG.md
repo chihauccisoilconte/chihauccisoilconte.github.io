@@ -384,3 +384,22 @@ intended use.
 - Jekyll build, all metadata checks, rendered-copy/translation checks, and diff
   checks passed. No remaining UX/UI references in published source copy or the
   translation dictionary. Downloadable PDFs were not edited. Not deployed.
+
+### Public-site security hardening — 2026-11-07
+
+- Added a meta Content Security Policy to the shared head: script elements may
+  load only from this site and the existing Flourish provider; legacy plugin
+  objects are blocked, base URLs are restricted to this origin, form destinations
+  are limited to this site and Google search, and insecure subresources upgrade
+  to HTTPS. Existing gallery inline event handlers remain supported; this is
+  partial script hardening, not a complete defense against script injection.
+- Added an explicit strict-origin-when-cross-origin referrer policy and changed
+  the legacy XFN profile link to HTTPS. Existing map integration retained.
+- Jekyll build passed; metadata checks passed for 30 public pages. Static checks
+  confirmed compatible executable script sources on all 39 pages using the
+  shared head. The standalone legacy outreach redirect does not use that head.
+  No connected browser was available for interactive gallery/map verification.
+- HTTPS enforcement requires GitHub Pages account settings. SSH publishing does
+  not grant access to that setting; requested that the owner enable it. HSTS,
+  framing protection, and nosniff require response headers, which cannot be
+  configured by these HTML edits. No claim that these remaining items are fixed.
